@@ -1,0 +1,1412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0001306620F5F6D600ED19A8 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0001306520F5F6D600ED19A8 /* bg.jpg */; };
+		0001306920FB7D3200ED19A8 /* BibleChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001306720FB7D3200ED19A8 /* BibleChildViewController.m */; };
+		0001306B20FB83C200ED19A8 /* BiblePrayerChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0001306A20FB83C200ED19A8 /* BiblePrayerChildView.xib */; };
+		001CC74620E0ED69009F5CE0 /* BibleSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001CC74520E0ED68009F5CE0 /* BibleSearchView.xib */; };
+		001CC74920E0EDFC009F5CE0 /* BibleSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CC74820E0EDFC009F5CE0 /* BibleSearch.m */; };
+		0041C43E20FF30EA007495EC /* BibleVersesSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0041C43D20FF30E9007495EC /* BibleVersesSelectedView.xib */; };
+		0041C44120FF3282007495EC /* BibleVersesSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041C43F20FF3282007495EC /* BibleVersesSelected.m */; };
+		004E1C3F1FF1152E00F72DB2 /* BibleNewListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004E1C3E1FF1152E00F72DB2 /* BibleNewListView.xib */; };
+		004E1C421FF115C800F72DB2 /* BibleNewList.m in Sources */ = {isa = PBXBuildFile; fileRef = 004E1C411FF115C800F72DB2 /* BibleNewList.m */; };
+		004E1C451FF1483D00F72DB2 /* BibleChapters.m in Sources */ = {isa = PBXBuildFile; fileRef = 004E1C441FF1483D00F72DB2 /* BibleChapters.m */; };
+		004E1C471FF148F000F72DB2 /* BibleChaptersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004E1C461FF148F000F72DB2 /* BibleChaptersView.xib */; };
+		0063B99E2110567D005B83F7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0063B99B2110567C005B83F7 /* FBSDKLoginKit.framework */; };
+		0063B99F2110567D005B83F7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0063B99C2110567C005B83F7 /* FBSDKCoreKit.framework */; };
+		0063B9A02110567D005B83F7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0063B99D2110567C005B83F7 /* Bolts.framework */; };
+		008140711FF0ED0E00183221 /* OSK_FBx.png in Resources */ = {isa = PBXBuildFile; fileRef = 008140701FF0ED0E00183221 /* OSK_FBx.png */; };
+		008140741FF0FD8E00183221 /* close_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 008140721FF0FD8E00183221 /* close_msg.png */; };
+		008140751FF0FD8E00183221 /* open_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 008140731FF0FD8E00183221 /* open_msg.png */; };
+		0084A3941FDD212300262A42 /* fb_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A3931FDD212300262A42 /* fb_login.png */; };
+		0084A3961FDD3CB600262A42 /* t2molaty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A3951FDD3CB600262A42 /* t2molaty.png */; };
+		0084A3981FDD3CC700262A42 /* salat_baker.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A3971FDD3CC700262A42 /* salat_baker.png */; };
+		0084A39A1FDD446900262A42 /* write_notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A3991FDD446900262A42 /* write_notes.png */; };
+		0084A39E1FDD576400262A42 /* beengylak.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A39B1FDD576400262A42 /* beengylak.png */; };
+		0084A39F1FDD576400262A42 /* bekenystak.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A39C1FDD576400262A42 /* bekenystak.png */; };
+		0084A3A01FDD576400262A42 /* belmaarefa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A39D1FDD576400262A42 /* belmaarefa.png */; };
+		0084A3A21FDD72DD00262A42 /* ektene.png in Resources */ = {isa = PBXBuildFile; fileRef = 0084A3A11FDD72DD00262A42 /* ektene.png */; };
+		0084FAA62108889400A40DB8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084FAA421087AA700A40DB8 /* UserNotifications.framework */; };
+		0088AF611FEA60CE007884F7 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF5F1FEA60CE007884F7 /* left-arrow.png */; };
+		0088AF621FEA60CE007884F7 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF601FEA60CE007884F7 /* menu-button.png */; };
+		0088AF641FEA673E007884F7 /* share_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF631FEA673E007884F7 /* share_twitter.png */; };
+		0088AF661FEA699B007884F7 /* contact_us.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF651FEA699B007884F7 /* contact_us.png */; };
+		0088AF681FEA71D5007884F7 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF671FEA71D5007884F7 /* youtube.png */; };
+		0088AF6B1FEA764C007884F7 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF691FEA764C007884F7 /* twitter.png */; };
+		0088AF6C1FEA764C007884F7 /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF6A1FEA764C007884F7 /* world.png */; };
+		0088AF6E1FEA9645007884F7 /* oskofia.db in Resources */ = {isa = PBXBuildFile; fileRef = 0088AF6D1FEA9645007884F7 /* oskofia.db */; };
+		0088AF7A1FEAA4AB007884F7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088AF701FEAA4AB007884F7 /* FMDatabase.m */; };
+		0088AF7B1FEAA4AB007884F7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088AF721FEAA4AB007884F7 /* FMDatabaseAdditions.m */; };
+		0088AF7C1FEAA4AB007884F7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088AF741FEAA4AB007884F7 /* FMDatabasePool.m */; };
+		0088AF7D1FEAA4AB007884F7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088AF761FEAA4AB007884F7 /* FMDatabaseQueue.m */; };
+		0088AF7E1FEAA4AB007884F7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088AF791FEAA4AB007884F7 /* FMResultSet.m */; };
+		0088AF811FEAA812007884F7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0088AF7F1FEAA812007884F7 /* libsqlite3.0.tbd */; };
+		0088AF821FEAA812007884F7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0088AF801FEAA812007884F7 /* libsqlite3.tbd */; };
+		008AFE8F20E2605E0082A374 /* bengelk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008AFE8E20E2605E0082A374 /* bengelk.jpg */; };
+		008AFE9120E260690082A374 /* IMG_Tamol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008AFE9020E260680082A374 /* IMG_Tamol.jpg */; };
+		0098ED521FDFC1920063474E /* annoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED511FDFC1920063474E /* annoy.png */; };
+		0098ED591FDFC9630063474E /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED531FDFC9630063474E /* angry.png */; };
+		0098ED5A1FDFC9630063474E /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED541FDFC9630063474E /* love.png */; };
+		0098ED5B1FDFC9630063474E /* refuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED551FDFC9630063474E /* refuse.png */; };
+		0098ED5C1FDFC9630063474E /* thank.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED561FDFC9630063474E /* thank.png */; };
+		0098ED5D1FDFC9630063474E /* unfairness.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED571FDFC9630063474E /* unfairness.png */; };
+		0098ED5E1FDFC9630063474E /* unsafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED581FDFC9630063474E /* unsafe.png */; };
+		0098ED601FDFD4B40063474E /* weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED5F1FDFD4B40063474E /* weak.png */; };
+		0098ED621FDFDBE80063474E /* etamen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED611FDFDBE80063474E /* etamen.png */; };
+		0098ED641FDFEC2B0063474E /* atfarag.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098ED631FDFEC2B0063474E /* atfarag.png */; };
+		009A39341FE6872E002DD835 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 009A39331FE6872E002DD835 /* logo.png */; };
+		009A39361FE6AC4D002DD835 /* SidebarMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009A39351FE6AC4D002DD835 /* SidebarMenuViewController.xib */; };
+		009A39391FE6AC66002DD835 /* SidebarMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009A39381FE6AC66002DD835 /* SidebarMenuViewController.m */; };
+		009C654F21259618006AF915 /* LoginView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009C655121259618006AF915 /* LoginView_i5.xib */; };
+		009C65B31FEBB626007F96EC /* agpyalist.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C65B21FEBB626007F96EC /* agpyalist.m */; };
+		009C65B51FEBB6B5007F96EC /* agpyalistView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009C65B41FEBB6B5007F96EC /* agpyalistView_i5.xib */; };
+		009C65B81FEBC556007F96EC /* agpyalistSalwat.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C65B71FEBC556007F96EC /* agpyalistSalwat.m */; };
+		009C65BA1FEBC56E007F96EC /* agpyalistSalwatView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009C65B91FEBC56E007F96EC /* agpyalistSalwatView_i5.xib */; };
+		009C65BD1FEBD7F9007F96EC /* AgpeyaPrayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C65BC1FEBD7F9007F96EC /* AgpeyaPrayerView.m */; };
+		009C65C11FEBECE2007F96EC /* AgpeyaPrayerView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009C65C01FEBECE2007F96EC /* AgpeyaPrayerView_i5.xib */; };
+		009C65C41FEBFA4C007F96EC /* AgpPrayerChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C65C31FEBFA4C007F96EC /* AgpPrayerChildViewController.m */; };
+		009C65C61FEBFA5D007F96EC /* AgpPrayerChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009C65C51FEBFA5D007F96EC /* AgpPrayerChildView.xib */; };
+		009E3EE91FE11BD500E43FDE /* es2al.png in Resources */ = {isa = PBXBuildFile; fileRef = 009E3EE81FE11BD500E43FDE /* es2al.png */; };
+		009E3EEB1FE1261A00E43FDE /* andy_soaal.png in Resources */ = {isa = PBXBuildFile; fileRef = 009E3EEA1FE1261A00E43FDE /* andy_soaal.png */; };
+		00A90BC71FEFE64000C307B7 /* BibleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A90BC61FEFE64000C307B7 /* BibleView.xib */; };
+		00A90BCA1FEFE76C00C307B7 /* BibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A90BC91FEFE76C00C307B7 /* BibleViewController.m */; };
+		00A90BCC1FEFE9BF00C307B7 /* bible.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A90BCB1FEFE9BF00C307B7 /* bible.png */; };
+		00A90BCE1FEFF81E00C307B7 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A90BCD1FEFF81E00C307B7 /* history.png */; };
+		00B834DB1FDE756700C6AFA9 /* colse.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B834DA1FDE756700C6AFA9 /* colse.png */; };
+		00B834DD1FDE7F2E00C6AFA9 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B834DC1FDE7F2E00C6AFA9 /* reload.png */; };
+		00B834DF1FDE9F7100C6AFA9 /* esm3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B834DE1FDE9F7100C6AFA9 /* esm3.png */; };
+		00D5690A204573C100863237 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D56909204573C100863237 /* Images.xcassets */; };
+		350DFB981A9E7D2500F63E65 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350DFB971A9E7D2500F63E65 /* FacebookSDK.framework */; };
+		350E2A811AA38194009FEACA /* PushTokenWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E2A801AA38194009FEACA /* PushTokenWebService.m */; };
+		350E3E1A19521081002FF6F3 /* Es2alQuestionWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E3E1919521081002FF6F3 /* Es2alQuestionWebService.m */; };
+		351D2BD51959F2B7005133D4 /* E3rafHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351D2BD31959F2B7005133D4 /* E3rafHistoryViewController.m */; };
+		353027071969157700E2D11B /* MailBoxView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353027061969157700E2D11B /* MailBoxView_i5.xib */; };
+		3530270919691A1500E2D11B /* MsgView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3530270819691A1500E2D11B /* MsgView_i5.xib */; };
+		3530270B19691B3A00E2D11B /* EktebLanaView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3530270A19691B3A00E2D11B /* EktebLanaView_i5.xib */; };
+		3530270D19691E1600E2D11B /* MoreView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3530270C19691E1600E2D11B /* MoreView_i5.xib */; };
+		3530270F1969209100E2D11B /* AboutView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3530270E1969209100E2D11B /* AboutView_i5.xib */; };
+		353027111969234600E2D11B /* E3rafView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353027101969234600E2D11B /* E3rafView_i5.xib */; };
+		353027131969277C00E2D11B /* E3rafHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353027121969277C00E2D11B /* E3rafHistoryView_i5.xib */; };
+		3530271719692DE500E2D11B /* RegistrationView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3530271619692DE500E2D11B /* RegistrationView_i5.xib */; };
+		3539255C195BCB5600E3B5C9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3539255B195BCB5600E3B5C9 /* Social.framework */; };
+		354451381A1D757F00F0DBE3 /* EktanyView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354451371A1D757F00F0DBE3 /* EktanyView_i5.xib */; };
+		354451481A1D7E4800F0DBE3 /* EktanyHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354451471A1D7E4800F0DBE3 /* EktanyHistoryView_i5.xib */; };
+		354880D91A1F560E00C019B9 /* ShoufView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354880D81A1F560E00C019B9 /* ShoufView_i5.xib */; };
+		354880DB1A1F580C00C019B9 /* ShoufHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354880DA1A1F580C00C019B9 /* ShoufHistoryView_i5.xib */; };
+		354880DD1A1F599300C019B9 /* YouTubeView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354880DC1A1F599300C019B9 /* YouTubeView_i5.xib */; };
+		354BAA2F1948DA050071423E /* SubjectPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BAA2E1948DA050071423E /* SubjectPickerViewController.m */; };
+		355F301F1927A92800AB7132 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F301D1927A92800AB7132 /* MainViewController.m */; };
+		3564D7FE1A1EC60A00E24EAD /* Esma3View_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3564D7FD1A1EC60A00E24EAD /* Esma3View_i5.xib */; };
+		3564D8001A1EC7FF00E24EAD /* Esma3HistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3564D7FF1A1EC7FF00E24EAD /* Esma3HistoryView_i5.xib */; };
+		35682CA319C412C6002DA957 /* Es2alHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35682CA119C412C6002DA957 /* Es2alHistoryViewController.m */; };
+		3579FAD019AEEF96004413BE /* B2kChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3579FACF19AEEF96004413BE /* B2kChildView.xib */; };
+		359445E6196535CE002C788F /* EktebLanaWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 359445E5196535CE002C788F /* EktebLanaWebService.m */; };
+		3599B4791938B450001B3636 /* BekenystakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599B4771938B450001B3636 /* BekenystakViewController.m */; };
+		35A109FA19DFAA1300078892 /* ForgotPassWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A109F919DFAA1300078892 /* ForgotPassWebService.m */; };
+		35AC25A819C40B4600B35696 /* BelmaHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AC25A719C40B4600B35696 /* BelmaHistoryView_i5.xib */; };
+		35AC6267196942F500B1BC20 /* OSK_IconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35AC6266196942F500B1BC20 /* OSK_IconImage@2x.png */; };
+		35ACD13219C4227A00058CBB /* Es2alHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35ACD13119C4227A00058CBB /* Es2alHistoryView_i5.xib */; };
+		35C996AD195671490029C281 /* LoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C996AC195671490029C281 /* LoginWebService.m */; };
+		35CB00341965F690001D191F /* CFWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB00331965F690001D191F /* CFWObject.m */; };
+		35CB00371965FD22001D191F /* DateIndexObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB00361965FD22001D191F /* DateIndexObject.m */; };
+		35CC0A8D19580EA2005D7635 /* RegistrationWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC0A8C19580EA2005D7635 /* RegistrationWebService.m */; };
+		35CF9F9419FF215F00C50CB5 /* Esma3WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF9F9319FF215F00C50CB5 /* Esma3WebService.m */; };
+		35CFCAB11938ACB800A58A28 /* Belma3refaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CFCAAF1938ACB800A58A28 /* Belma3refaViewController.m */; };
+		35CFCAB51938AD9700A58A28 /* Ma3refaWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CFCAB41938AD9700A58A28 /* Ma3refaWebService.m */; };
+		35D24E1D1A00CE03000419DA /* ShoufWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D24E1C1A00CE03000419DA /* ShoufWebService.m */; };
+		35D24E201A00E795000419DA /* EktanyWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D24E1F1A00E795000419DA /* EktanyWebService.m */; };
+		35D269FA195A04F000D55EEC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D269F8195A04F000D55EEC /* AboutViewController.m */; };
+		35D269FF195A108C00D55EEC /* SplashMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35D269FE195A108C00D55EEC /* SplashMovie.mp4 */; };
+		35D39CEF1963A1E0002DA33C /* OSK_EttamenFO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D39CEE1963A1E0002DA33C /* OSK_EttamenFO@2x.png */; };
+		35D48C8319564A8E000D86A5 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D48C8219564A8E000D86A5 /* SplashView.xib */; };
+		35D4BA1119561BDD00B9F6F5 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4BA0F19561BDD00B9F6F5 /* SplashViewController.m */; };
+		35D4BA14195624B200B9F6F5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4BA13195624B200B9F6F5 /* MediaPlayer.framework */; };
+		35D5B5841A16CDCB006EF678 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D5B5821A16CDCB006EF678 /* YouTubeViewController.m */; };
+		35D5B5871A16ECC4006EF678 /* OSK_BtnBackWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D5B5861A16ECC4006EF678 /* OSK_BtnBackWhite@2x.png */; };
+		35D66993194A862300C73599 /* EttamenWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D66992194A862300C73599 /* EttamenWebService.m */; };
+		35D69A3219651ED000E68B99 /* OSK_IconVideo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D69A3019651ED000E68B99 /* OSK_IconVideo@2x.png */; };
+		35D6BD1419E78017007E1B78 /* OSK_ButtonDec@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D6BD1219E78017007E1B78 /* OSK_ButtonDec@2x.png */; };
+		35D6BD1519E78017007E1B78 /* OSK_ButtonInc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D6BD1319E78017007E1B78 /* OSK_ButtonInc@2x.png */; };
+		35D6FC9219639AEA00FA706B /* OSK_Eshba3_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D6FC8019639AEA00FA706B /* OSK_Eshba3_i5@2x.png */; };
+		35D6FC9319639AEA00FA706B /* OSK_Ettamen_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D6FC8119639AEA00FA706B /* OSK_Ettamen_i5@2x.png */; };
+		35D6FC9519639AEA00FA706B /* OSK_Login_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D6FC8319639AEA00FA706B /* OSK_Login_i5@2x.png */; };
+		35D71C94194A27C400552F2F /* EttamenMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D71C92194A27C400552F2F /* EttamenMsgViewController.m */; };
+		35D74B391968F3DD009F263C /* OSK_BtnMailboxNew_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B361968F3DD009F263C /* OSK_BtnMailboxNew_i5@2x.png */; };
+		35D74B3A1968F3DD009F263C /* OSK_BtnMailboxNone_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B371968F3DD009F263C /* OSK_BtnMailboxNone_i5@2x.png */; };
+		35D74B3E1968F92F009F263C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B3B1968F92F009F263C /* Default-568h@2x.png */; };
+		35D74B3F1968F92F009F263C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B3C1968F92F009F263C /* Default.png */; };
+		35D74B401968F92F009F263C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B3D1968F92F009F263C /* Default@2x.png */; };
+		35D74B421968FB5D009F263C /* Eshba3View_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B411968FB5D009F263C /* Eshba3View_i5.xib */; };
+		35D74B441968FEE0009F263C /* Be2engylakView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B431968FEE0009F263C /* Be2engylakView_i5.xib */; };
+		35D74B4819690532009F263C /* B2kHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B4719690532009F263C /* B2kHistoryView_i5.xib */; };
+		35D74B4A19690670009F263C /* BekenystakView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B4919690670009F263C /* BekenystakView_i5.xib */; };
+		35D74B4C19690A1A009F263C /* Belma3refaView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B4B19690A1A009F263C /* Belma3refaView_i5.xib */; };
+		35D74B4E19690BF7009F263C /* EttamenView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B4D19690BF7009F263C /* EttamenView_i5.xib */; };
+		35D74B5019690F95009F263C /* EttamenMsgView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B4F19690F95009F263C /* EttamenMsgView_i5.xib */; };
+		35D74B52196910F8009F263C /* Es2alView_I5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D74B51196910F8009F263C /* Es2alView_I5.xib */; };
+		35D79EE819455F9B005DC2ED /* MailBoxWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D79EE719455F9B005DC2ED /* MailBoxWebService.m */; };
+		35D7E8BC19C3F2080038F75D /* BelmaHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D7E8BA19C3F2080038F75D /* BelmaHistoryViewController.m */; };
+		35D811ED1949D1EA00580964 /* AgePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D811EC1949D1EA00580964 /* AgePickerViewController.m */; };
+		35D915271927B2B7007F0AD8 /* Eshba3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D915251927B2B7007F0AD8 /* Eshba3ViewController.m */; };
+		35D9152C1927B2E2007F0AD8 /* EttamenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D9152A1927B2E2007F0AD8 /* EttamenViewController.m */; };
+		35D915311927B2FE007F0AD8 /* Es2alViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D9152F1927B2FE007F0AD8 /* Es2alViewController.m */; };
+		35D915361927B31A007F0AD8 /* E3rafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D915341927B31A007F0AD8 /* E3rafViewController.m */; };
+		35DA4DBF1927CEAC0035C1C3 /* MailBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DBD1927CEAC0035C1C3 /* MailBoxViewController.m */; };
+		35DA4DC41927CED50035C1C3 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DC21927CED50035C1C3 /* MsgViewController.m */; };
+		35DA4DC91927CF130035C1C3 /* EktebLanaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DC71927CF130035C1C3 /* EktebLanaViewController.m */; };
+		35DA4DCF1927D28D0035C1C3 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DCD1927D28D0035C1C3 /* MoreViewController.m */; };
+		35DA4DD41927D8D30035C1C3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DD21927D8D30035C1C3 /* LoginViewController.m */; };
+		35DA4DDA1927D9060035C1C3 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA4DD81927D9060035C1C3 /* RegistrationViewController.m */; };
+		35DB33461938A17A0007E9C7 /* Be2engylakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB33441938A17A0007E9C7 /* Be2engylakViewController.m */; };
+		35DB334B1938A56A0007E9C7 /* B2kHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB33491938A56A0007E9C7 /* B2kHistoryViewController.m */; };
+		35DC09F8193FB36000C2590E /* Es2alWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC09F7193FB36000C2590E /* Es2alWebService.m */; };
+		35E7346F1927A2F40063C1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E7346E1927A2F40063C1F7 /* Foundation.framework */; };
+		35E734711927A2F40063C1F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E734701927A2F40063C1F7 /* CoreGraphics.framework */; };
+		35E734731927A2F40063C1F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E734721927A2F40063C1F7 /* UIKit.framework */; };
+		35E7347B1927A2F40063C1F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E7347A1927A2F40063C1F7 /* main.m */; };
+		35E7347F1927A2F40063C1F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E7347E1927A2F40063C1F7 /* AppDelegate.m */; };
+		35E8891219AEB60C00D25D65 /* B2kChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8891019AEB60C00D25D65 /* B2kChildViewController.m */; };
+		35EB12C5193EA31C00A8B85B /* EngylakWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EB12C4193EA31C00A8B85B /* EngylakWebService.m */; };
+		35EB12C8193EBE6300A8B85B /* KenystakWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EB12C7193EBE6300A8B85B /* KenystakWebService.m */; };
+		35EB12CD193EFB8E00A8B85B /* E3rafWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EB12CC193EFB8E00A8B85B /* E3rafWebService.m */; };
+		35ED2330195BC15F00D1A971 /* OSK_ButtonCopy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ED232D195BC15F00D1A971 /* OSK_ButtonCopy@2x.png */; };
+		35ED2331195BC15F00D1A971 /* OSK_ButtonFB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ED232E195BC15F00D1A971 /* OSK_ButtonFB@2x.png */; };
+		35ED2332195BC15F00D1A971 /* OSK_ButtonWhtsp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ED232F195BC15F00D1A971 /* OSK_ButtonWhtsp@2x.png */; };
+		35F0497519FD8ECE00B4A3AE /* EktanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0497319FD8ECE00B4A3AE /* EktanyViewController.m */; };
+		35F0499119FD971200B4A3AE /* EktanyHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0498F19FD971200B4A3AE /* EktanyHistoryViewController.m */; };
+		35F0499819FD9DC000B4A3AE /* Esma3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0499619FD9DC000B4A3AE /* Esma3ViewController.m */; };
+		35F0499D19FD9E7200B4A3AE /* ShoufViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0499B19FD9E7200B4A3AE /* ShoufViewController.m */; };
+		35F049A719FDA1B200B4A3AE /* Esma3HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F049A519FDA1B200B4A3AE /* Esma3HistoryViewController.m */; };
+		35F049AC19FDA1D200B4A3AE /* ShoufHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F049AA19FDA1D200B4A3AE /* ShoufHistoryViewController.m */; };
+		D22726FB1B48920D0050C5DC /* ReadNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22726FA1B48920D0050C5DC /* ReadNoteViewController.m */; };
+		D23764711B4792CB00CC4EEF /* WriteNoteView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D237646F1B4792CB00CC4EEF /* WriteNoteView_i5.xib */; };
+		D242FB6C1B7274070043EA17 /* OSK_IconEsma3_Pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D242FB6A1B7274070043EA17 /* OSK_IconEsma3_Pause@2x.png */; };
+		D242FB6D1B7274070043EA17 /* OSK_IconEsma3_Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D242FB6B1B7274070043EA17 /* OSK_IconEsma3_Play@2x.png */; };
+		D244E78E1B3094DA0056FFE2 /* OSK_LblBaskha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D244E78A1B3094DA0056FFE2 /* OSK_LblBaskha@2x.png */; };
+		D249F21F1B31989C006119FA /* AgpeyaWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D249F21E1B31989C006119FA /* AgpeyaWebService.m */; };
+		D25021021B2BD1AA007AE994 /* SalatyView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25021001B2BD1AA007AE994 /* SalatyView_i5.xib */; };
+		D25021061B2BD1D8007AE994 /* OSK_Salaty_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25021041B2BD1D8007AE994 /* OSK_Salaty_i5@2x.png */; };
+		D250210B1B2BD52E007AE994 /* SalatyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D250210A1B2BD52E007AE994 /* SalatyViewController.m */; };
+		D25393D01B4E5A1400CA8061 /* NotesWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D25393CF1B4E5A1400CA8061 /* NotesWebService.m */; };
+		D25393D31B4E755E00CA8061 /* PostNoteWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D25393D21B4E755E00CA8061 /* PostNoteWebService.m */; };
+		D25BA0F01B5FC90C0038DC1B /* DeleteNoteWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D25BA0EF1B5FC90C0038DC1B /* DeleteNoteWebService.m */; };
+		D25F70E51B2A2B2600B1342B /* NewMainView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25F70E21B2A2B2600B1342B /* NewMainView_i5.xib */; };
+		D26624E41B48950A00B8137F /* ReadNoteView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26624E21B48950A00B8137F /* ReadNoteView_i5.xib */; };
+		D2722DE01B35180C00FC291C /* SoundCloudWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D2722DDF1B35180C00FC291C /* SoundCloudWebService.m */; };
+		D27ADF771B31B611002A1527 /* AgpChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27ADF761B31B611002A1527 /* AgpChildViewController.m */; };
+		D27BB3B41B37B2A700ECF749 /* OSK_ButtonPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D27BB3B21B37B2A700ECF749 /* OSK_ButtonPause@2x.png */; };
+		D27BB3B51B37B2A700ECF749 /* OSK_ButtonPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D27BB3B31B37B2A700ECF749 /* OSK_ButtonPlay@2x.png */; };
+		D2CACB491B2BDDB800AEC39A /* AgpeyaView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CACB471B2BDDB800AEC39A /* AgpeyaView_i5.xib */; };
+		D2CACB511B2BDE2200AEC39A /* AgpeyaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CACB501B2BDE2200AEC39A /* AgpeyaViewController.m */; };
+		D2CACB541B2BE33000AEC39A /* OSK_NotesHistory_i5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CACB521B2BE33000AEC39A /* OSK_NotesHistory_i5@2x.png */; };
+		D2CACB581B2BE45200AEC39A /* NotesHistoryView_i5.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CACB561B2BE45200AEC39A /* NotesHistoryView_i5.xib */; };
+		D2CACB5C1B2BE50100AEC39A /* NotesHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CACB5B1B2BE50100AEC39A /* NotesHistoryViewController.m */; };
+		D2D3FBF51B478EC800A91200 /* WriteNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D3FBF41B478EC800A91200 /* WriteNoteViewController.m */; };
+		D2F03F7A1B31C2DF00A8ECD1 /* AgpChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F03F791B31C2DF00A8ECD1 /* AgpChildView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0001306520F5F6D600ED19A8 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = "Supporting Files/bg.jpg"; sourceTree = "<group>"; };
+		0001306720FB7D3200ED19A8 /* BibleChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleChildViewController.m; path = Classes/BibleChildViewController.m; sourceTree = "<group>"; };
+		0001306820FB7D3200ED19A8 /* BibleChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleChildViewController.h; path = Classes/BibleChildViewController.h; sourceTree = "<group>"; };
+		0001306A20FB83C200ED19A8 /* BiblePrayerChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BiblePrayerChildView.xib; path = Resources/BiblePrayerChildView.xib; sourceTree = "<group>"; };
+		001CC74520E0ED68009F5CE0 /* BibleSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibleSearchView.xib; path = Resources/BibleSearchView.xib; sourceTree = "<group>"; };
+		001CC74720E0EDFC009F5CE0 /* BibleSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleSearch.h; path = Classes/BibleSearch.h; sourceTree = "<group>"; };
+		001CC74820E0EDFC009F5CE0 /* BibleSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleSearch.m; path = Classes/BibleSearch.m; sourceTree = "<group>"; };
+		0041C43D20FF30E9007495EC /* BibleVersesSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibleVersesSelectedView.xib; path = Resources/BibleVersesSelectedView.xib; sourceTree = "<group>"; };
+		0041C43F20FF3282007495EC /* BibleVersesSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleVersesSelected.m; path = Classes/BibleVersesSelected.m; sourceTree = "<group>"; };
+		0041C44020FF3282007495EC /* BibleVersesSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleVersesSelected.h; path = Classes/BibleVersesSelected.h; sourceTree = "<group>"; };
+		004E1C3E1FF1152E00F72DB2 /* BibleNewListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibleNewListView.xib; path = Resources/BibleNewListView.xib; sourceTree = "<group>"; };
+		004E1C401FF115C800F72DB2 /* BibleNewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleNewList.h; path = Classes/BibleNewList.h; sourceTree = "<group>"; };
+		004E1C411FF115C800F72DB2 /* BibleNewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleNewList.m; path = Classes/BibleNewList.m; sourceTree = "<group>"; };
+		004E1C431FF1483D00F72DB2 /* BibleChapters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleChapters.h; path = Classes/BibleChapters.h; sourceTree = "<group>"; };
+		004E1C441FF1483D00F72DB2 /* BibleChapters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleChapters.m; path = Classes/BibleChapters.m; sourceTree = "<group>"; };
+		004E1C461FF148F000F72DB2 /* BibleChaptersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibleChaptersView.xib; path = Resources/BibleChaptersView.xib; sourceTree = "<group>"; };
+		0063B993211054BF005B83F7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Users/Romany/Downloads/FacebookSDKs-iOS-4.35.0 (1)/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0063B995211054BF005B83F7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Users/Romany/Downloads/FacebookSDKs-iOS-4.35.0 (1)/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0063B99921105661005B83F7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0063B99B2110567C005B83F7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0063B99C2110567C005B83F7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0063B99D2110567C005B83F7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		008140701FF0ED0E00183221 /* OSK_FBx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OSK_FBx.png; path = "Supporting Files/OSK_FBx.png"; sourceTree = "<group>"; };
+		008140721FF0FD8E00183221 /* close_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_msg.png; path = "Supporting Files/close_msg.png"; sourceTree = "<group>"; };
+		008140731FF0FD8E00183221 /* open_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = open_msg.png; path = "Supporting Files/open_msg.png"; sourceTree = "<group>"; };
+		0084A3931FDD212300262A42 /* fb_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_login.png; path = "Supporting Files/fb_login.png"; sourceTree = "<group>"; };
+		0084A3951FDD3CB600262A42 /* t2molaty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t2molaty.png; path = "Supporting Files/t2molaty.png"; sourceTree = "<group>"; };
+		0084A3971FDD3CC700262A42 /* salat_baker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salat_baker.png; path = "Supporting Files/salat_baker.png"; sourceTree = "<group>"; };
+		0084A3991FDD446900262A42 /* write_notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = write_notes.png; path = "Supporting Files/write_notes.png"; sourceTree = "<group>"; };
+		0084A39B1FDD576400262A42 /* beengylak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beengylak.png; path = "Supporting Files/beengylak.png"; sourceTree = "<group>"; };
+		0084A39C1FDD576400262A42 /* bekenystak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bekenystak.png; path = "Supporting Files/bekenystak.png"; sourceTree = "<group>"; };
+		0084A39D1FDD576400262A42 /* belmaarefa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = belmaarefa.png; path = "Supporting Files/belmaarefa.png"; sourceTree = "<group>"; };
+		0084A3A11FDD72DD00262A42 /* ektene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ektene.png; path = "Supporting Files/ektene.png"; sourceTree = "<group>"; };
+		0084FAA421087AA700A40DB8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		0088AF5F1FEA60CE007884F7 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left-arrow.png"; path = "Supporting Files/left-arrow.png"; sourceTree = "<group>"; };
+		0088AF601FEA60CE007884F7 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-button.png"; path = "Supporting Files/menu-button.png"; sourceTree = "<group>"; };
+		0088AF631FEA673E007884F7 /* share_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share_twitter.png; path = "Supporting Files/share_twitter.png"; sourceTree = "<group>"; };
+		0088AF651FEA699B007884F7 /* contact_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contact_us.png; path = "Supporting Files/contact_us.png"; sourceTree = "<group>"; };
+		0088AF671FEA71D5007884F7 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtube.png; path = "Supporting Files/youtube.png"; sourceTree = "<group>"; };
+		0088AF691FEA764C007884F7 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = "Supporting Files/twitter.png"; sourceTree = "<group>"; };
+		0088AF6A1FEA764C007884F7 /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = world.png; path = "Supporting Files/world.png"; sourceTree = "<group>"; };
+		0088AF6D1FEA9645007884F7 /* oskofia.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = oskofia.db; path = "Supporting Files/oskofia.db"; sourceTree = "<group>"; };
+		0088AF6F1FEAA4AB007884F7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		0088AF701FEAA4AB007884F7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		0088AF711FEAA4AB007884F7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		0088AF721FEAA4AB007884F7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0088AF731FEAA4AB007884F7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		0088AF741FEAA4AB007884F7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		0088AF751FEAA4AB007884F7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		0088AF761FEAA4AB007884F7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0088AF771FEAA4AB007884F7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		0088AF781FEAA4AB007884F7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		0088AF791FEAA4AB007884F7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		0088AF7F1FEAA812007884F7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0088AF801FEAA812007884F7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		008AFE8E20E2605E0082A374 /* bengelk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bengelk.jpg; path = "Supporting Files/bengelk.jpg"; sourceTree = "<group>"; };
+		008AFE9020E260680082A374 /* IMG_Tamol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_Tamol.jpg; path = "Supporting Files/IMG_Tamol.jpg"; sourceTree = "<group>"; };
+		0098ED511FDFC1920063474E /* annoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annoy.png; path = "Supporting Files/annoy.png"; sourceTree = "<group>"; };
+		0098ED531FDFC9630063474E /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angry.png; path = "Supporting Files/angry.png"; sourceTree = "<group>"; };
+		0098ED541FDFC9630063474E /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = love.png; path = "Supporting Files/love.png"; sourceTree = "<group>"; };
+		0098ED551FDFC9630063474E /* refuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refuse.png; path = "Supporting Files/refuse.png"; sourceTree = "<group>"; };
+		0098ED561FDFC9630063474E /* thank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thank.png; path = "Supporting Files/thank.png"; sourceTree = "<group>"; };
+		0098ED571FDFC9630063474E /* unfairness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unfairness.png; path = "Supporting Files/unfairness.png"; sourceTree = "<group>"; };
+		0098ED581FDFC9630063474E /* unsafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unsafe.png; path = "Supporting Files/unsafe.png"; sourceTree = "<group>"; };
+		0098ED5F1FDFD4B40063474E /* weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weak.png; path = "Supporting Files/weak.png"; sourceTree = "<group>"; };
+		0098ED611FDFDBE80063474E /* etamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = etamen.png; path = "Supporting Files/etamen.png"; sourceTree = "<group>"; };
+		0098ED631FDFEC2B0063474E /* atfarag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atfarag.png; path = "Supporting Files/atfarag.png"; sourceTree = "<group>"; };
+		009A39331FE6872E002DD835 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Supporting Files/logo.png"; sourceTree = "<group>"; };
+		009A39351FE6AC4D002DD835 /* SidebarMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SidebarMenuViewController.xib; path = Resources/SidebarMenuViewController.xib; sourceTree = "<group>"; };
+		009A39371FE6AC66002DD835 /* SidebarMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarMenuViewController.h; path = Classes/SidebarMenuViewController.h; sourceTree = "<group>"; };
+		009A39381FE6AC66002DD835 /* SidebarMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarMenuViewController.m; path = Classes/SidebarMenuViewController.m; sourceTree = "<group>"; };
+		009C655021259618006AF915 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginView_i5.xib; sourceTree = "<group>"; };
+		009C65B11FEBB626007F96EC /* agpyalist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agpyalist.h; path = Classes/agpyalist.h; sourceTree = "<group>"; };
+		009C65B21FEBB626007F96EC /* agpyalist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = agpyalist.m; path = Classes/agpyalist.m; sourceTree = "<group>"; };
+		009C65B41FEBB6B5007F96EC /* agpyalistView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = agpyalistView_i5.xib; path = Resources/agpyalistView_i5.xib; sourceTree = "<group>"; };
+		009C65B61FEBC556007F96EC /* agpyalistSalwat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agpyalistSalwat.h; path = Classes/agpyalistSalwat.h; sourceTree = "<group>"; };
+		009C65B71FEBC556007F96EC /* agpyalistSalwat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = agpyalistSalwat.m; path = Classes/agpyalistSalwat.m; sourceTree = "<group>"; };
+		009C65B91FEBC56E007F96EC /* agpyalistSalwatView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = agpyalistSalwatView_i5.xib; path = Resources/agpyalistSalwatView_i5.xib; sourceTree = "<group>"; };
+		009C65BB1FEBD7F9007F96EC /* AgpeyaPrayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgpeyaPrayerView.h; path = Classes/AgpeyaPrayerView.h; sourceTree = "<group>"; };
+		009C65BC1FEBD7F9007F96EC /* AgpeyaPrayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgpeyaPrayerView.m; path = Classes/AgpeyaPrayerView.m; sourceTree = "<group>"; };
+		009C65C01FEBECE2007F96EC /* AgpeyaPrayerView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgpeyaPrayerView_i5.xib; path = Resources/AgpeyaPrayerView_i5.xib; sourceTree = "<group>"; };
+		009C65C21FEBFA4C007F96EC /* AgpPrayerChildViewControlle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgpPrayerChildViewControlle.h; path = Classes/AgpPrayerChildViewControlle.h; sourceTree = "<group>"; };
+		009C65C31FEBFA4C007F96EC /* AgpPrayerChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgpPrayerChildViewController.m; path = Classes/AgpPrayerChildViewController.m; sourceTree = "<group>"; };
+		009C65C51FEBFA5D007F96EC /* AgpPrayerChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgpPrayerChildView.xib; path = Resources/AgpPrayerChildView.xib; sourceTree = "<group>"; };
+		009E3EE81FE11BD500E43FDE /* es2al.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es2al.png; path = "Supporting Files/es2al.png"; sourceTree = "<group>"; };
+		009E3EEA1FE1261A00E43FDE /* andy_soaal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = andy_soaal.png; path = "Supporting Files/andy_soaal.png"; sourceTree = "<group>"; };
+		00A90BC61FEFE64000C307B7 /* BibleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibleView.xib; path = Resources/BibleView.xib; sourceTree = "<group>"; };
+		00A90BC81FEFE76C00C307B7 /* BibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibleViewController.h; path = Classes/BibleViewController.h; sourceTree = "<group>"; };
+		00A90BC91FEFE76C00C307B7 /* BibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibleViewController.m; path = Classes/BibleViewController.m; sourceTree = "<group>"; };
+		00A90BCB1FEFE9BF00C307B7 /* bible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bible.png; path = "Supporting Files/bible.png"; sourceTree = "<group>"; };
+		00A90BCD1FEFF81E00C307B7 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = "Supporting Files/history.png"; sourceTree = "<group>"; };
+		00B834DA1FDE756700C6AFA9 /* colse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colse.png; path = "Supporting Files/colse.png"; sourceTree = "<group>"; };
+		00B834DC1FDE7F2E00C6AFA9 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reload.png; path = "Supporting Files/reload.png"; sourceTree = "<group>"; };
+		00B834DE1FDE9F7100C6AFA9 /* esm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = esm3.png; path = "Supporting Files/esm3.png"; sourceTree = "<group>"; };
+		00D56909204573C100863237 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "أسقفية الشباب/Images.xcassets"; sourceTree = "<group>"; };
+		00ECA1F121885C2B00293539 /* أسقفية الشباب.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "أسقفية الشباب.entitlements"; path = "أسقفية الشباب/أسقفية الشباب.entitlements"; sourceTree = "<group>"; };
+		350DFB971A9E7D2500F63E65 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		350E2A801AA38194009FEACA /* PushTokenWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PushTokenWebService.m; path = Classes/PushTokenWebService.m; sourceTree = "<group>"; };
+		350E2A821AA381D3009FEACA /* PushTokenWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PushTokenWebService.h; path = Classes/PushTokenWebService.h; sourceTree = "<group>"; };
+		350E3E1819521081002FF6F3 /* Es2alQuestionWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Es2alQuestionWebService.h; path = Classes/Es2alQuestionWebService.h; sourceTree = "<group>"; };
+		350E3E1919521081002FF6F3 /* Es2alQuestionWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Es2alQuestionWebService.m; path = Classes/Es2alQuestionWebService.m; sourceTree = "<group>"; };
+		351D2BD21959F2B7005133D4 /* E3rafHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E3rafHistoryViewController.h; path = Classes/E3rafHistoryViewController.h; sourceTree = "<group>"; };
+		351D2BD31959F2B7005133D4 /* E3rafHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = E3rafHistoryViewController.m; path = Classes/E3rafHistoryViewController.m; sourceTree = "<group>"; };
+		353027061969157700E2D11B /* MailBoxView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MailBoxView_i5.xib; path = Resources/MailBoxView_i5.xib; sourceTree = "<group>"; };
+		3530270819691A1500E2D11B /* MsgView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MsgView_i5.xib; path = Resources/MsgView_i5.xib; sourceTree = "<group>"; };
+		3530270A19691B3A00E2D11B /* EktebLanaView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EktebLanaView_i5.xib; path = Resources/EktebLanaView_i5.xib; sourceTree = "<group>"; };
+		3530270C19691E1600E2D11B /* MoreView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MoreView_i5.xib; path = Resources/MoreView_i5.xib; sourceTree = "<group>"; };
+		3530270E1969209100E2D11B /* AboutView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView_i5.xib; path = Resources/AboutView_i5.xib; sourceTree = "<group>"; };
+		353027101969234600E2D11B /* E3rafView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = E3rafView_i5.xib; path = Resources/E3rafView_i5.xib; sourceTree = "<group>"; };
+		353027121969277C00E2D11B /* E3rafHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = E3rafHistoryView_i5.xib; path = Resources/E3rafHistoryView_i5.xib; sourceTree = "<group>"; };
+		3530271619692DE500E2D11B /* RegistrationView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegistrationView_i5.xib; path = Resources/RegistrationView_i5.xib; sourceTree = "<group>"; };
+		3539255B195BCB5600E3B5C9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		354451371A1D757F00F0DBE3 /* EktanyView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EktanyView_i5.xib; path = Resources/EktanyView_i5.xib; sourceTree = "<group>"; };
+		354451471A1D7E4800F0DBE3 /* EktanyHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EktanyHistoryView_i5.xib; path = Resources/EktanyHistoryView_i5.xib; sourceTree = "<group>"; };
+		354880D81A1F560E00C019B9 /* ShoufView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoufView_i5.xib; path = Resources/ShoufView_i5.xib; sourceTree = "<group>"; };
+		354880DA1A1F580C00C019B9 /* ShoufHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoufHistoryView_i5.xib; path = Resources/ShoufHistoryView_i5.xib; sourceTree = "<group>"; };
+		354880DC1A1F599300C019B9 /* YouTubeView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YouTubeView_i5.xib; path = Resources/YouTubeView_i5.xib; sourceTree = "<group>"; };
+		354BAA2D1948DA050071423E /* SubjectPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectPickerViewController.h; path = Classes/SubjectPickerViewController.h; sourceTree = "<group>"; };
+		354BAA2E1948DA050071423E /* SubjectPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectPickerViewController.m; path = Classes/SubjectPickerViewController.m; sourceTree = "<group>"; };
+		355F301C1927A92800AB7132 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		355F301D1927A92800AB7132 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		3564D7FD1A1EC60A00E24EAD /* Esma3View_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Esma3View_i5.xib; path = Resources/Esma3View_i5.xib; sourceTree = "<group>"; };
+		3564D7FF1A1EC7FF00E24EAD /* Esma3HistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Esma3HistoryView_i5.xib; path = Resources/Esma3HistoryView_i5.xib; sourceTree = "<group>"; };
+		35682CA019C412C6002DA957 /* Es2alHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Es2alHistoryViewController.h; path = Classes/Es2alHistoryViewController.h; sourceTree = "<group>"; };
+		35682CA119C412C6002DA957 /* Es2alHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Es2alHistoryViewController.m; path = Classes/Es2alHistoryViewController.m; sourceTree = "<group>"; };
+		3579FACF19AEEF96004413BE /* B2kChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = B2kChildView.xib; path = Resources/B2kChildView.xib; sourceTree = "<group>"; };
+		359445E4196535CD002C788F /* EktebLanaWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EktebLanaWebService.h; path = Classes/EktebLanaWebService.h; sourceTree = "<group>"; };
+		359445E5196535CE002C788F /* EktebLanaWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EktebLanaWebService.m; path = Classes/EktebLanaWebService.m; sourceTree = "<group>"; };
+		3599B4761938B450001B3636 /* BekenystakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BekenystakViewController.h; path = Classes/BekenystakViewController.h; sourceTree = "<group>"; };
+		3599B4771938B450001B3636 /* BekenystakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BekenystakViewController.m; path = Classes/BekenystakViewController.m; sourceTree = "<group>"; };
+		35A109F819DFAA1300078892 /* ForgotPassWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPassWebService.h; path = Classes/ForgotPassWebService.h; sourceTree = "<group>"; };
+		35A109F919DFAA1300078892 /* ForgotPassWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPassWebService.m; path = Classes/ForgotPassWebService.m; sourceTree = "<group>"; };
+		35AC25A719C40B4600B35696 /* BelmaHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BelmaHistoryView_i5.xib; path = Resources/BelmaHistoryView_i5.xib; sourceTree = "<group>"; };
+		35AC6266196942F500B1BC20 /* OSK_IconImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_IconImage@2x.png"; path = "Supporting Files/OSK_IconImage@2x.png"; sourceTree = "<group>"; };
+		35ACD13119C4227A00058CBB /* Es2alHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Es2alHistoryView_i5.xib; path = Resources/Es2alHistoryView_i5.xib; sourceTree = "<group>"; };
+		35C996AB195671490029C281 /* LoginWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginWebService.h; path = Classes/LoginWebService.h; sourceTree = "<group>"; };
+		35C996AC195671490029C281 /* LoginWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginWebService.m; path = Classes/LoginWebService.m; sourceTree = "<group>"; };
+		35CB00321965F690001D191F /* CFWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFWObject.h; path = Classes/CFWObject.h; sourceTree = "<group>"; };
+		35CB00331965F690001D191F /* CFWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFWObject.m; path = Classes/CFWObject.m; sourceTree = "<group>"; };
+		35CB00351965FD22001D191F /* DateIndexObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateIndexObject.h; path = Classes/DateIndexObject.h; sourceTree = "<group>"; };
+		35CB00361965FD22001D191F /* DateIndexObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateIndexObject.m; path = Classes/DateIndexObject.m; sourceTree = "<group>"; };
+		35CC0A8B19580EA2005D7635 /* RegistrationWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationWebService.h; path = Classes/RegistrationWebService.h; sourceTree = "<group>"; };
+		35CC0A8C19580EA2005D7635 /* RegistrationWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationWebService.m; path = Classes/RegistrationWebService.m; sourceTree = "<group>"; };
+		35CF9F9219FF215F00C50CB5 /* Esma3WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Esma3WebService.h; path = Classes/Esma3WebService.h; sourceTree = "<group>"; };
+		35CF9F9319FF215F00C50CB5 /* Esma3WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Esma3WebService.m; path = Classes/Esma3WebService.m; sourceTree = "<group>"; };
+		35CFCAAE1938ACB800A58A28 /* Belma3refaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Belma3refaViewController.h; path = Classes/Belma3refaViewController.h; sourceTree = "<group>"; };
+		35CFCAAF1938ACB800A58A28 /* Belma3refaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Belma3refaViewController.m; path = Classes/Belma3refaViewController.m; sourceTree = "<group>"; };
+		35CFCAB31938AD9700A58A28 /* Ma3refaWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ma3refaWebService.h; path = Classes/Ma3refaWebService.h; sourceTree = "<group>"; };
+		35CFCAB41938AD9700A58A28 /* Ma3refaWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ma3refaWebService.m; path = Classes/Ma3refaWebService.m; sourceTree = "<group>"; };
+		35D24E1B1A00CE03000419DA /* ShoufWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoufWebService.h; path = Classes/ShoufWebService.h; sourceTree = "<group>"; };
+		35D24E1C1A00CE03000419DA /* ShoufWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoufWebService.m; path = Classes/ShoufWebService.m; sourceTree = "<group>"; };
+		35D24E1E1A00E795000419DA /* EktanyWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EktanyWebService.h; path = Classes/EktanyWebService.h; sourceTree = "<group>"; };
+		35D24E1F1A00E795000419DA /* EktanyWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EktanyWebService.m; path = Classes/EktanyWebService.m; sourceTree = "<group>"; };
+		35D269F7195A04F000D55EEC /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Classes/AboutViewController.h; sourceTree = "<group>"; };
+		35D269F8195A04F000D55EEC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Classes/AboutViewController.m; sourceTree = "<group>"; };
+		35D269FE195A108C00D55EEC /* SplashMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SplashMovie.mp4; path = "Supporting Files/SplashMovie.mp4"; sourceTree = "<group>"; };
+		35D39CEE1963A1E0002DA33C /* OSK_EttamenFO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_EttamenFO@2x.png"; path = "Supporting Files/OSK_EttamenFO@2x.png"; sourceTree = "<group>"; };
+		35D48C8219564A8E000D86A5 /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashView.xib; path = Resources/SplashView.xib; sourceTree = "<group>"; };
+		35D4BA0E19561BDD00B9F6F5 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		35D4BA0F19561BDD00B9F6F5 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = Classes/SplashViewController.m; sourceTree = "<group>"; };
+		35D4BA13195624B200B9F6F5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		35D5B5811A16CDCB006EF678 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YouTubeViewController.h; path = Classes/YouTubeViewController.h; sourceTree = "<group>"; };
+		35D5B5821A16CDCB006EF678 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YouTubeViewController.m; path = Classes/YouTubeViewController.m; sourceTree = "<group>"; };
+		35D5B5861A16ECC4006EF678 /* OSK_BtnBackWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_BtnBackWhite@2x.png"; path = "Supporting Files/OSK_BtnBackWhite@2x.png"; sourceTree = "<group>"; };
+		35D66991194A862300C73599 /* EttamenWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EttamenWebService.h; path = Classes/EttamenWebService.h; sourceTree = "<group>"; };
+		35D66992194A862300C73599 /* EttamenWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EttamenWebService.m; path = Classes/EttamenWebService.m; sourceTree = "<group>"; };
+		35D69A3019651ED000E68B99 /* OSK_IconVideo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_IconVideo@2x.png"; path = "Supporting Files/OSK_IconVideo@2x.png"; sourceTree = "<group>"; };
+		35D6BD1219E78017007E1B78 /* OSK_ButtonDec@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonDec@2x.png"; path = "Supporting Files/OSK_ButtonDec@2x.png"; sourceTree = "<group>"; };
+		35D6BD1319E78017007E1B78 /* OSK_ButtonInc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonInc@2x.png"; path = "Supporting Files/OSK_ButtonInc@2x.png"; sourceTree = "<group>"; };
+		35D6FC8019639AEA00FA706B /* OSK_Eshba3_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_Eshba3_i5@2x.png"; path = "Supporting Files/OSK_Eshba3_i5@2x.png"; sourceTree = "<group>"; };
+		35D6FC8119639AEA00FA706B /* OSK_Ettamen_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_Ettamen_i5@2x.png"; path = "Supporting Files/OSK_Ettamen_i5@2x.png"; sourceTree = "<group>"; };
+		35D6FC8319639AEA00FA706B /* OSK_Login_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_Login_i5@2x.png"; path = "Supporting Files/OSK_Login_i5@2x.png"; sourceTree = "<group>"; };
+		35D71C91194A27C400552F2F /* EttamenMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EttamenMsgViewController.h; path = Classes/EttamenMsgViewController.h; sourceTree = "<group>"; };
+		35D71C92194A27C400552F2F /* EttamenMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EttamenMsgViewController.m; path = Classes/EttamenMsgViewController.m; sourceTree = "<group>"; };
+		35D74B361968F3DD009F263C /* OSK_BtnMailboxNew_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_BtnMailboxNew_i5@2x.png"; path = "Supporting Files/OSK_BtnMailboxNew_i5@2x.png"; sourceTree = "<group>"; };
+		35D74B371968F3DD009F263C /* OSK_BtnMailboxNone_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_BtnMailboxNone_i5@2x.png"; path = "Supporting Files/OSK_BtnMailboxNone_i5@2x.png"; sourceTree = "<group>"; };
+		35D74B3B1968F92F009F263C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Supporting Files/Default-568h@2x.png"; sourceTree = "<group>"; };
+		35D74B3C1968F92F009F263C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Supporting Files/Default.png"; sourceTree = "<group>"; };
+		35D74B3D1968F92F009F263C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Supporting Files/Default@2x.png"; sourceTree = "<group>"; };
+		35D74B411968FB5D009F263C /* Eshba3View_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Eshba3View_i5.xib; path = Resources/Eshba3View_i5.xib; sourceTree = "<group>"; };
+		35D74B431968FEE0009F263C /* Be2engylakView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Be2engylakView_i5.xib; path = Resources/Be2engylakView_i5.xib; sourceTree = "<group>"; };
+		35D74B4719690532009F263C /* B2kHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = B2kHistoryView_i5.xib; path = Resources/B2kHistoryView_i5.xib; sourceTree = "<group>"; };
+		35D74B4919690670009F263C /* BekenystakView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BekenystakView_i5.xib; path = Resources/BekenystakView_i5.xib; sourceTree = "<group>"; };
+		35D74B4B19690A1A009F263C /* Belma3refaView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Belma3refaView_i5.xib; path = Resources/Belma3refaView_i5.xib; sourceTree = "<group>"; };
+		35D74B4D19690BF7009F263C /* EttamenView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EttamenView_i5.xib; path = Resources/EttamenView_i5.xib; sourceTree = "<group>"; };
+		35D74B4F19690F95009F263C /* EttamenMsgView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EttamenMsgView_i5.xib; path = Resources/EttamenMsgView_i5.xib; sourceTree = "<group>"; };
+		35D74B51196910F8009F263C /* Es2alView_I5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Es2alView_I5.xib; path = Resources/Es2alView_I5.xib; sourceTree = "<group>"; };
+		35D79EE619455F9B005DC2ED /* MailBoxWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailBoxWebService.h; path = Classes/MailBoxWebService.h; sourceTree = "<group>"; };
+		35D79EE719455F9B005DC2ED /* MailBoxWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailBoxWebService.m; path = Classes/MailBoxWebService.m; sourceTree = "<group>"; };
+		35D7E8B919C3F2080038F75D /* BelmaHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BelmaHistoryViewController.h; path = Classes/BelmaHistoryViewController.h; sourceTree = "<group>"; };
+		35D7E8BA19C3F2080038F75D /* BelmaHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BelmaHistoryViewController.m; path = Classes/BelmaHistoryViewController.m; sourceTree = "<group>"; };
+		35D811EB1949D1EA00580964 /* AgePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgePickerViewController.h; path = Classes/AgePickerViewController.h; sourceTree = "<group>"; };
+		35D811EC1949D1EA00580964 /* AgePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgePickerViewController.m; path = Classes/AgePickerViewController.m; sourceTree = "<group>"; };
+		35D915241927B2B7007F0AD8 /* Eshba3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Eshba3ViewController.h; path = Classes/Eshba3ViewController.h; sourceTree = "<group>"; };
+		35D915251927B2B7007F0AD8 /* Eshba3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Eshba3ViewController.m; path = Classes/Eshba3ViewController.m; sourceTree = "<group>"; };
+		35D915291927B2E2007F0AD8 /* EttamenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EttamenViewController.h; path = Classes/EttamenViewController.h; sourceTree = "<group>"; };
+		35D9152A1927B2E2007F0AD8 /* EttamenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EttamenViewController.m; path = Classes/EttamenViewController.m; sourceTree = "<group>"; };
+		35D9152E1927B2FE007F0AD8 /* Es2alViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Es2alViewController.h; path = Classes/Es2alViewController.h; sourceTree = "<group>"; };
+		35D9152F1927B2FE007F0AD8 /* Es2alViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Es2alViewController.m; path = Classes/Es2alViewController.m; sourceTree = "<group>"; };
+		35D915331927B31A007F0AD8 /* E3rafViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E3rafViewController.h; path = Classes/E3rafViewController.h; sourceTree = "<group>"; };
+		35D915341927B31A007F0AD8 /* E3rafViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = E3rafViewController.m; path = Classes/E3rafViewController.m; sourceTree = "<group>"; };
+		35DA4DBC1927CEAC0035C1C3 /* MailBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailBoxViewController.h; path = Classes/MailBoxViewController.h; sourceTree = "<group>"; };
+		35DA4DBD1927CEAC0035C1C3 /* MailBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailBoxViewController.m; path = Classes/MailBoxViewController.m; sourceTree = "<group>"; };
+		35DA4DC11927CED50035C1C3 /* MsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MsgViewController.h; path = Classes/MsgViewController.h; sourceTree = "<group>"; };
+		35DA4DC21927CED50035C1C3 /* MsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MsgViewController.m; path = Classes/MsgViewController.m; sourceTree = "<group>"; };
+		35DA4DC61927CF130035C1C3 /* EktebLanaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EktebLanaViewController.h; path = Classes/EktebLanaViewController.h; sourceTree = "<group>"; };
+		35DA4DC71927CF130035C1C3 /* EktebLanaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EktebLanaViewController.m; path = Classes/EktebLanaViewController.m; sourceTree = "<group>"; };
+		35DA4DCC1927D28D0035C1C3 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreViewController.h; path = Classes/MoreViewController.h; sourceTree = "<group>"; };
+		35DA4DCD1927D28D0035C1C3 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreViewController.m; path = Classes/MoreViewController.m; sourceTree = "<group>"; };
+		35DA4DD11927D8D30035C1C3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/LoginViewController.h; sourceTree = "<group>"; };
+		35DA4DD21927D8D30035C1C3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Classes/LoginViewController.m; sourceTree = "<group>"; };
+		35DA4DD71927D9060035C1C3 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationViewController.h; path = Classes/RegistrationViewController.h; sourceTree = "<group>"; };
+		35DA4DD81927D9060035C1C3 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationViewController.m; path = Classes/RegistrationViewController.m; sourceTree = "<group>"; };
+		35DB33431938A17A0007E9C7 /* Be2engylakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Be2engylakViewController.h; path = Classes/Be2engylakViewController.h; sourceTree = "<group>"; };
+		35DB33441938A17A0007E9C7 /* Be2engylakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Be2engylakViewController.m; path = Classes/Be2engylakViewController.m; sourceTree = "<group>"; };
+		35DB33481938A56A0007E9C7 /* B2kHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = B2kHistoryViewController.h; path = Classes/B2kHistoryViewController.h; sourceTree = "<group>"; };
+		35DB33491938A56A0007E9C7 /* B2kHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = B2kHistoryViewController.m; path = Classes/B2kHistoryViewController.m; sourceTree = "<group>"; };
+		35DC09F6193FB36000C2590E /* Es2alWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Es2alWebService.h; path = Classes/Es2alWebService.h; sourceTree = "<group>"; };
+		35DC09F7193FB36000C2590E /* Es2alWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Es2alWebService.m; path = Classes/Es2alWebService.m; sourceTree = "<group>"; };
+		35E7346B1927A2F40063C1F7 /* أسقفية الشباب.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "أسقفية الشباب.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E7346E1927A2F40063C1F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35E734701927A2F40063C1F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35E734721927A2F40063C1F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35E734761927A2F40063C1F7 /* أسقفية الشباب-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "أسقفية الشباب-Info.plist"; sourceTree = "<group>"; };
+		35E7347A1927A2F40063C1F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35E7347C1927A2F40063C1F7 /* أسقفية الشباب-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "أسقفية الشباب-Prefix.pch"; sourceTree = "<group>"; };
+		35E7347D1927A2F40063C1F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35E7347E1927A2F40063C1F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35E8890F19AEB60C00D25D65 /* B2kChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = B2kChildViewController.h; path = Classes/B2kChildViewController.h; sourceTree = "<group>"; };
+		35E8891019AEB60C00D25D65 /* B2kChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = B2kChildViewController.m; path = Classes/B2kChildViewController.m; sourceTree = "<group>"; };
+		35EB12C3193EA31C00A8B85B /* EngylakWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngylakWebService.h; path = Classes/EngylakWebService.h; sourceTree = "<group>"; };
+		35EB12C4193EA31C00A8B85B /* EngylakWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EngylakWebService.m; path = Classes/EngylakWebService.m; sourceTree = "<group>"; };
+		35EB12C6193EBE6300A8B85B /* KenystakWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KenystakWebService.h; path = Classes/KenystakWebService.h; sourceTree = "<group>"; };
+		35EB12C7193EBE6300A8B85B /* KenystakWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KenystakWebService.m; path = Classes/KenystakWebService.m; sourceTree = "<group>"; };
+		35EB12CB193EFB8E00A8B85B /* E3rafWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E3rafWebService.h; path = Classes/E3rafWebService.h; sourceTree = "<group>"; };
+		35EB12CC193EFB8E00A8B85B /* E3rafWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = E3rafWebService.m; path = Classes/E3rafWebService.m; sourceTree = "<group>"; };
+		35ED232D195BC15F00D1A971 /* OSK_ButtonCopy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonCopy@2x.png"; path = "Supporting Files/OSK_ButtonCopy@2x.png"; sourceTree = "<group>"; };
+		35ED232E195BC15F00D1A971 /* OSK_ButtonFB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonFB@2x.png"; path = "Supporting Files/OSK_ButtonFB@2x.png"; sourceTree = "<group>"; };
+		35ED232F195BC15F00D1A971 /* OSK_ButtonWhtsp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonWhtsp@2x.png"; path = "Supporting Files/OSK_ButtonWhtsp@2x.png"; sourceTree = "<group>"; };
+		35F0497219FD8ECE00B4A3AE /* EktanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EktanyViewController.h; path = Classes/EktanyViewController.h; sourceTree = "<group>"; };
+		35F0497319FD8ECE00B4A3AE /* EktanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EktanyViewController.m; path = Classes/EktanyViewController.m; sourceTree = "<group>"; };
+		35F0498E19FD971200B4A3AE /* EktanyHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EktanyHistoryViewController.h; path = Classes/EktanyHistoryViewController.h; sourceTree = "<group>"; };
+		35F0498F19FD971200B4A3AE /* EktanyHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EktanyHistoryViewController.m; path = Classes/EktanyHistoryViewController.m; sourceTree = "<group>"; };
+		35F0499519FD9DC000B4A3AE /* Esma3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Esma3ViewController.h; path = Classes/Esma3ViewController.h; sourceTree = "<group>"; };
+		35F0499619FD9DC000B4A3AE /* Esma3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Esma3ViewController.m; path = Classes/Esma3ViewController.m; sourceTree = "<group>"; };
+		35F0499A19FD9E7200B4A3AE /* ShoufViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoufViewController.h; path = Classes/ShoufViewController.h; sourceTree = "<group>"; };
+		35F0499B19FD9E7200B4A3AE /* ShoufViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoufViewController.m; path = Classes/ShoufViewController.m; sourceTree = "<group>"; };
+		35F049A419FDA1B200B4A3AE /* Esma3HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Esma3HistoryViewController.h; path = Classes/Esma3HistoryViewController.h; sourceTree = "<group>"; };
+		35F049A519FDA1B200B4A3AE /* Esma3HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Esma3HistoryViewController.m; path = Classes/Esma3HistoryViewController.m; sourceTree = "<group>"; };
+		35F049A919FDA1D200B4A3AE /* ShoufHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoufHistoryViewController.h; path = Classes/ShoufHistoryViewController.h; sourceTree = "<group>"; };
+		35F049AA19FDA1D200B4A3AE /* ShoufHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoufHistoryViewController.m; path = Classes/ShoufHistoryViewController.m; sourceTree = "<group>"; };
+		D22726F91B48920D0050C5DC /* ReadNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadNoteViewController.h; path = Classes/ReadNoteViewController.h; sourceTree = "<group>"; };
+		D22726FA1B48920D0050C5DC /* ReadNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadNoteViewController.m; path = Classes/ReadNoteViewController.m; sourceTree = "<group>"; };
+		D237646F1B4792CB00CC4EEF /* WriteNoteView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WriteNoteView_i5.xib; path = Resources/WriteNoteView_i5.xib; sourceTree = "<group>"; };
+		D242FB6A1B7274070043EA17 /* OSK_IconEsma3_Pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_IconEsma3_Pause@2x.png"; path = "Supporting Files/OSK_IconEsma3_Pause@2x.png"; sourceTree = "<group>"; };
+		D242FB6B1B7274070043EA17 /* OSK_IconEsma3_Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_IconEsma3_Play@2x.png"; path = "Supporting Files/OSK_IconEsma3_Play@2x.png"; sourceTree = "<group>"; };
+		D244E78A1B3094DA0056FFE2 /* OSK_LblBaskha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_LblBaskha@2x.png"; path = "Supporting Files/OSK_LblBaskha@2x.png"; sourceTree = "<group>"; };
+		D249F21D1B31989C006119FA /* AgpeyaWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgpeyaWebService.h; path = Classes/AgpeyaWebService.h; sourceTree = "<group>"; };
+		D249F21E1B31989C006119FA /* AgpeyaWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgpeyaWebService.m; path = Classes/AgpeyaWebService.m; sourceTree = "<group>"; };
+		D25021001B2BD1AA007AE994 /* SalatyView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SalatyView_i5.xib; path = Resources/SalatyView_i5.xib; sourceTree = "<group>"; };
+		D25021041B2BD1D8007AE994 /* OSK_Salaty_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_Salaty_i5@2x.png"; path = "Supporting Files/OSK_Salaty_i5@2x.png"; sourceTree = "<group>"; };
+		D25021091B2BD52E007AE994 /* SalatyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SalatyViewController.h; path = Classes/SalatyViewController.h; sourceTree = "<group>"; };
+		D250210A1B2BD52E007AE994 /* SalatyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SalatyViewController.m; path = Classes/SalatyViewController.m; sourceTree = "<group>"; };
+		D25393CE1B4E5A1400CA8061 /* NotesWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesWebService.h; path = Classes/NotesWebService.h; sourceTree = "<group>"; };
+		D25393CF1B4E5A1400CA8061 /* NotesWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesWebService.m; path = Classes/NotesWebService.m; sourceTree = "<group>"; };
+		D25393D11B4E755E00CA8061 /* PostNoteWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostNoteWebService.h; path = Classes/PostNoteWebService.h; sourceTree = "<group>"; };
+		D25393D21B4E755E00CA8061 /* PostNoteWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostNoteWebService.m; path = Classes/PostNoteWebService.m; sourceTree = "<group>"; };
+		D25BA0EE1B5FC90C0038DC1B /* DeleteNoteWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteNoteWebService.h; path = Classes/DeleteNoteWebService.h; sourceTree = "<group>"; };
+		D25BA0EF1B5FC90C0038DC1B /* DeleteNoteWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteNoteWebService.m; path = Classes/DeleteNoteWebService.m; sourceTree = "<group>"; };
+		D25F70E21B2A2B2600B1342B /* NewMainView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewMainView_i5.xib; path = Resources/NewMainView_i5.xib; sourceTree = "<group>"; };
+		D26624E21B48950A00B8137F /* ReadNoteView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReadNoteView_i5.xib; path = Resources/ReadNoteView_i5.xib; sourceTree = "<group>"; };
+		D2722DDE1B35180C00FC291C /* SoundCloudWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundCloudWebService.h; path = Classes/SoundCloudWebService.h; sourceTree = "<group>"; };
+		D2722DDF1B35180C00FC291C /* SoundCloudWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundCloudWebService.m; path = Classes/SoundCloudWebService.m; sourceTree = "<group>"; };
+		D27ADF751B31B611002A1527 /* AgpChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgpChildViewController.h; path = Classes/AgpChildViewController.h; sourceTree = "<group>"; };
+		D27ADF761B31B611002A1527 /* AgpChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgpChildViewController.m; path = Classes/AgpChildViewController.m; sourceTree = "<group>"; };
+		D27BB3B21B37B2A700ECF749 /* OSK_ButtonPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonPause@2x.png"; path = "Supporting Files/OSK_ButtonPause@2x.png"; sourceTree = "<group>"; };
+		D27BB3B31B37B2A700ECF749 /* OSK_ButtonPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_ButtonPlay@2x.png"; path = "Supporting Files/OSK_ButtonPlay@2x.png"; sourceTree = "<group>"; };
+		D2CACB471B2BDDB800AEC39A /* AgpeyaView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgpeyaView_i5.xib; path = Resources/AgpeyaView_i5.xib; sourceTree = "<group>"; };
+		D2CACB4F1B2BDE2200AEC39A /* AgpeyaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgpeyaViewController.h; path = Classes/AgpeyaViewController.h; sourceTree = "<group>"; };
+		D2CACB501B2BDE2200AEC39A /* AgpeyaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgpeyaViewController.m; path = Classes/AgpeyaViewController.m; sourceTree = "<group>"; };
+		D2CACB521B2BE33000AEC39A /* OSK_NotesHistory_i5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSK_NotesHistory_i5@2x.png"; path = "Supporting Files/OSK_NotesHistory_i5@2x.png"; sourceTree = "<group>"; };
+		D2CACB561B2BE45200AEC39A /* NotesHistoryView_i5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotesHistoryView_i5.xib; path = Resources/NotesHistoryView_i5.xib; sourceTree = "<group>"; };
+		D2CACB5A1B2BE50100AEC39A /* NotesHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesHistoryViewController.h; path = Classes/NotesHistoryViewController.h; sourceTree = "<group>"; };
+		D2CACB5B1B2BE50100AEC39A /* NotesHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesHistoryViewController.m; path = Classes/NotesHistoryViewController.m; sourceTree = "<group>"; };
+		D2D3FBF31B478EC800A91200 /* WriteNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteNoteViewController.h; path = Classes/WriteNoteViewController.h; sourceTree = "<group>"; };
+		D2D3FBF41B478EC800A91200 /* WriteNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteNoteViewController.m; path = Classes/WriteNoteViewController.m; sourceTree = "<group>"; };
+		D2F03F791B31C2DF00A8ECD1 /* AgpChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgpChildView.xib; path = Resources/AgpChildView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E734681927A2F40063C1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084FAA62108889400A40DB8 /* UserNotifications.framework in Frameworks */,
+				0088AF811FEAA812007884F7 /* libsqlite3.0.tbd in Frameworks */,
+				0063B99E2110567D005B83F7 /* FBSDKLoginKit.framework in Frameworks */,
+				0063B9A02110567D005B83F7 /* Bolts.framework in Frameworks */,
+				0063B99F2110567D005B83F7 /* FBSDKCoreKit.framework in Frameworks */,
+				0088AF821FEAA812007884F7 /* libsqlite3.tbd in Frameworks */,
+				350DFB981A9E7D2500F63E65 /* FacebookSDK.framework in Frameworks */,
+				3539255C195BCB5600E3B5C9 /* Social.framework in Frameworks */,
+				35D4BA14195624B200B9F6F5 /* MediaPlayer.framework in Frameworks */,
+				35E734711927A2F40063C1F7 /* CoreGraphics.framework in Frameworks */,
+				35E734731927A2F40063C1F7 /* UIKit.framework in Frameworks */,
+				35E7346F1927A2F40063C1F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355F30211927A94C00AB7132 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35CB00321965F690001D191F /* CFWObject.h */,
+				35D4BA0E19561BDD00B9F6F5 /* SplashViewController.h */,
+				35CB00331965F690001D191F /* CFWObject.m */,
+				35CB00351965FD22001D191F /* DateIndexObject.h */,
+				35CB00361965FD22001D191F /* DateIndexObject.m */,
+				D287B33B1B2B038700F056B5 /* WebServices */,
+				35DA4DD61927D8DD0035C1C3 /* Login */,
+				355F301C1927A92800AB7132 /* MainViewController.h */,
+				355F301D1927A92800AB7132 /* MainViewController.m */,
+				35D5B5811A16CDCB006EF678 /* YouTubeViewController.h */,
+				35D5B5821A16CDCB006EF678 /* YouTubeViewController.m */,
+				D25F70DB1B2A287700B1342B /* YoumBeYoum */,
+				D25021081B2BD4EC007AE994 /* Salaty */,
+				35DA4DCB1927CF380035C1C3 /* Mailbox */,
+				D287B33A1B2B036900F056B5 /* More */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		355F30221927A96100AB7132 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				009A39351FE6AC4D002DD835 /* SidebarMenuViewController.xib */,
+				35D48C8219564A8E000D86A5 /* SplashView.xib */,
+				D250210C1B2BD61F007AE994 /* Login */,
+				D25F70E21B2A2B2600B1342B /* NewMainView_i5.xib */,
+				354880DC1A1F599300C019B9 /* YouTubeView_i5.xib */,
+				D250210D1B2BD643007AE994 /* YoumBeYoum */,
+				D250210E1B2BD699007AE994 /* Salaty */,
+				D250210F1B2BD776007AE994 /* Mailbox */,
+				D25021101B2BD79C007AE994 /* More */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35DA4DB01927C5A60035C1C3 /* Eshba3 */ = {
+			isa = PBXGroup;
+			children = (
+				35D915241927B2B7007F0AD8 /* Eshba3ViewController.h */,
+				35D915251927B2B7007F0AD8 /* Eshba3ViewController.m */,
+				35DB33431938A17A0007E9C7 /* Be2engylakViewController.h */,
+				35DB33441938A17A0007E9C7 /* Be2engylakViewController.m */,
+				35E8890F19AEB60C00D25D65 /* B2kChildViewController.h */,
+				35E8891019AEB60C00D25D65 /* B2kChildViewController.m */,
+				35DB33481938A56A0007E9C7 /* B2kHistoryViewController.h */,
+				35DB33491938A56A0007E9C7 /* B2kHistoryViewController.m */,
+				3599B4761938B450001B3636 /* BekenystakViewController.h */,
+				3599B4771938B450001B3636 /* BekenystakViewController.m */,
+				35CFCAAE1938ACB800A58A28 /* Belma3refaViewController.h */,
+				35CFCAAF1938ACB800A58A28 /* Belma3refaViewController.m */,
+				35D7E8B919C3F2080038F75D /* BelmaHistoryViewController.h */,
+				35D7E8BA19C3F2080038F75D /* BelmaHistoryViewController.m */,
+			);
+			name = Eshba3;
+			sourceTree = "<group>";
+		};
+		35DA4DCB1927CF380035C1C3 /* Mailbox */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4DBC1927CEAC0035C1C3 /* MailBoxViewController.h */,
+				35DA4DBD1927CEAC0035C1C3 /* MailBoxViewController.m */,
+				35DA4DC11927CED50035C1C3 /* MsgViewController.h */,
+				35DA4DC21927CED50035C1C3 /* MsgViewController.m */,
+				35DA4DC61927CF130035C1C3 /* EktebLanaViewController.h */,
+				35DA4DC71927CF130035C1C3 /* EktebLanaViewController.m */,
+				354BAA2D1948DA050071423E /* SubjectPickerViewController.h */,
+				354BAA2E1948DA050071423E /* SubjectPickerViewController.m */,
+			);
+			name = Mailbox;
+			sourceTree = "<group>";
+		};
+		35DA4DD61927D8DD0035C1C3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4DD11927D8D30035C1C3 /* LoginViewController.h */,
+				35DA4DD21927D8D30035C1C3 /* LoginViewController.m */,
+				35DA4DD71927D9060035C1C3 /* RegistrationViewController.h */,
+				35DA4DD81927D9060035C1C3 /* RegistrationViewController.m */,
+				35D811EB1949D1EA00580964 /* AgePickerViewController.h */,
+				35D811EC1949D1EA00580964 /* AgePickerViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		35E734621927A2F40063C1F7 = {
+			isa = PBXGroup;
+			children = (
+				00ECA1F121885C2B00293539 /* أسقفية الشباب.entitlements */,
+				0063B99D2110567C005B83F7 /* Bolts.framework */,
+				0063B99C2110567C005B83F7 /* FBSDKCoreKit.framework */,
+				0063B99B2110567C005B83F7 /* FBSDKLoginKit.framework */,
+				00D56909204573C100863237 /* Images.xcassets */,
+				35E734741927A2F40063C1F7 /* Oskofeya */,
+				35E7346D1927A2F40063C1F7 /* Frameworks */,
+				35E7346C1927A2F40063C1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E7346C1927A2F40063C1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E7346B1927A2F40063C1F7 /* أسقفية الشباب.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E7346D1927A2F40063C1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0063B99921105661005B83F7 /* Bolts.framework */,
+				0063B995211054BF005B83F7 /* FBSDKCoreKit.framework */,
+				0063B993211054BF005B83F7 /* FBSDKLoginKit.framework */,
+				0084FAA421087AA700A40DB8 /* UserNotifications.framework */,
+				0088AF7F1FEAA812007884F7 /* libsqlite3.0.tbd */,
+				0088AF801FEAA812007884F7 /* libsqlite3.tbd */,
+				350DFB971A9E7D2500F63E65 /* FacebookSDK.framework */,
+				3539255B195BCB5600E3B5C9 /* Social.framework */,
+				35D4BA13195624B200B9F6F5 /* MediaPlayer.framework */,
+				35E7346E1927A2F40063C1F7 /* Foundation.framework */,
+				35E734701927A2F40063C1F7 /* CoreGraphics.framework */,
+				35E734721927A2F40063C1F7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35E734741927A2F40063C1F7 /* Oskofeya */ = {
+			isa = PBXGroup;
+			children = (
+				0088AF6F1FEAA4AB007884F7 /* FMDatabase.h */,
+				0088AF701FEAA4AB007884F7 /* FMDatabase.m */,
+				0088AF711FEAA4AB007884F7 /* FMDatabaseAdditions.h */,
+				0088AF721FEAA4AB007884F7 /* FMDatabaseAdditions.m */,
+				0088AF731FEAA4AB007884F7 /* FMDatabasePool.h */,
+				0088AF741FEAA4AB007884F7 /* FMDatabasePool.m */,
+				0088AF751FEAA4AB007884F7 /* FMDatabaseQueue.h */,
+				0088AF761FEAA4AB007884F7 /* FMDatabaseQueue.m */,
+				0088AF771FEAA4AB007884F7 /* FMDB.h */,
+				0088AF781FEAA4AB007884F7 /* FMResultSet.h */,
+				0088AF791FEAA4AB007884F7 /* FMResultSet.m */,
+				009A39371FE6AC66002DD835 /* SidebarMenuViewController.h */,
+				009A39381FE6AC66002DD835 /* SidebarMenuViewController.m */,
+				35E7347D1927A2F40063C1F7 /* AppDelegate.h */,
+				35E7347E1927A2F40063C1F7 /* AppDelegate.m */,
+				35D4BA0F19561BDD00B9F6F5 /* SplashViewController.m */,
+				355F30211927A94C00AB7132 /* Classes */,
+				355F30221927A96100AB7132 /* Resources */,
+				35E734751927A2F40063C1F7 /* Supporting Files */,
+			);
+			path = Oskofeya;
+			sourceTree = "<group>";
+		};
+		35E734751927A2F40063C1F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0001306520F5F6D600ED19A8 /* bg.jpg */,
+				008AFE9020E260680082A374 /* IMG_Tamol.jpg */,
+				008AFE8E20E2605E0082A374 /* bengelk.jpg */,
+				008140721FF0FD8E00183221 /* close_msg.png */,
+				008140731FF0FD8E00183221 /* open_msg.png */,
+				008140701FF0ED0E00183221 /* OSK_FBx.png */,
+				00A90BCD1FEFF81E00C307B7 /* history.png */,
+				00A90BCB1FEFE9BF00C307B7 /* bible.png */,
+				0088AF6D1FEA9645007884F7 /* oskofia.db */,
+				0088AF691FEA764C007884F7 /* twitter.png */,
+				0088AF6A1FEA764C007884F7 /* world.png */,
+				0088AF671FEA71D5007884F7 /* youtube.png */,
+				0088AF651FEA699B007884F7 /* contact_us.png */,
+				0088AF631FEA673E007884F7 /* share_twitter.png */,
+				0088AF5F1FEA60CE007884F7 /* left-arrow.png */,
+				0088AF601FEA60CE007884F7 /* menu-button.png */,
+				009A39331FE6872E002DD835 /* logo.png */,
+				009E3EEA1FE1261A00E43FDE /* andy_soaal.png */,
+				009E3EE81FE11BD500E43FDE /* es2al.png */,
+				0098ED631FDFEC2B0063474E /* atfarag.png */,
+				0098ED611FDFDBE80063474E /* etamen.png */,
+				0098ED5F1FDFD4B40063474E /* weak.png */,
+				0098ED531FDFC9630063474E /* angry.png */,
+				0098ED541FDFC9630063474E /* love.png */,
+				0098ED551FDFC9630063474E /* refuse.png */,
+				0098ED561FDFC9630063474E /* thank.png */,
+				0098ED571FDFC9630063474E /* unfairness.png */,
+				0098ED581FDFC9630063474E /* unsafe.png */,
+				0098ED511FDFC1920063474E /* annoy.png */,
+				00B834DE1FDE9F7100C6AFA9 /* esm3.png */,
+				00B834DC1FDE7F2E00C6AFA9 /* reload.png */,
+				00B834DA1FDE756700C6AFA9 /* colse.png */,
+				0084A3A11FDD72DD00262A42 /* ektene.png */,
+				0084A39B1FDD576400262A42 /* beengylak.png */,
+				0084A39C1FDD576400262A42 /* bekenystak.png */,
+				0084A39D1FDD576400262A42 /* belmaarefa.png */,
+				0084A3991FDD446900262A42 /* write_notes.png */,
+				0084A3931FDD212300262A42 /* fb_login.png */,
+				0084A3971FDD3CC700262A42 /* salat_baker.png */,
+				35D6FC8319639AEA00FA706B /* OSK_Login_i5@2x.png */,
+				0084A3951FDD3CB600262A42 /* t2molaty.png */,
+				35D74B361968F3DD009F263C /* OSK_BtnMailboxNew_i5@2x.png */,
+				35D74B371968F3DD009F263C /* OSK_BtnMailboxNone_i5@2x.png */,
+				35D5B5861A16ECC4006EF678 /* OSK_BtnBackWhite@2x.png */,
+				35D6FC8019639AEA00FA706B /* OSK_Eshba3_i5@2x.png */,
+				35D6BD1319E78017007E1B78 /* OSK_ButtonInc@2x.png */,
+				35D6BD1219E78017007E1B78 /* OSK_ButtonDec@2x.png */,
+				35ED232D195BC15F00D1A971 /* OSK_ButtonCopy@2x.png */,
+				35ED232E195BC15F00D1A971 /* OSK_ButtonFB@2x.png */,
+				35ED232F195BC15F00D1A971 /* OSK_ButtonWhtsp@2x.png */,
+				35D6FC8119639AEA00FA706B /* OSK_Ettamen_i5@2x.png */,
+				35D39CEE1963A1E0002DA33C /* OSK_EttamenFO@2x.png */,
+				D25021041B2BD1D8007AE994 /* OSK_Salaty_i5@2x.png */,
+				D244E78A1B3094DA0056FFE2 /* OSK_LblBaskha@2x.png */,
+				D27BB3B31B37B2A700ECF749 /* OSK_ButtonPlay@2x.png */,
+				D27BB3B21B37B2A700ECF749 /* OSK_ButtonPause@2x.png */,
+				D2CACB521B2BE33000AEC39A /* OSK_NotesHistory_i5@2x.png */,
+				35D269FE195A108C00D55EEC /* SplashMovie.mp4 */,
+				D242FB6B1B7274070043EA17 /* OSK_IconEsma3_Play@2x.png */,
+				D242FB6A1B7274070043EA17 /* OSK_IconEsma3_Pause@2x.png */,
+				35D69A3019651ED000E68B99 /* OSK_IconVideo@2x.png */,
+				35AC6266196942F500B1BC20 /* OSK_IconImage@2x.png */,
+				35E734761927A2F40063C1F7 /* أسقفية الشباب-Info.plist */,
+				35E7347A1927A2F40063C1F7 /* main.m */,
+				35E7347C1927A2F40063C1F7 /* أسقفية الشباب-Prefix.pch */,
+				35D74B3C1968F92F009F263C /* Default.png */,
+				35D74B3D1968F92F009F263C /* Default@2x.png */,
+				35D74B3B1968F92F009F263C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35F0499F19FDA05200B4A3AE /* Estamte3 */ = {
+			isa = PBXGroup;
+			children = (
+				35F0499519FD9DC000B4A3AE /* Esma3ViewController.h */,
+				35F0499619FD9DC000B4A3AE /* Esma3ViewController.m */,
+				35F049A419FDA1B200B4A3AE /* Esma3HistoryViewController.h */,
+				35F049A519FDA1B200B4A3AE /* Esma3HistoryViewController.m */,
+				35F0499A19FD9E7200B4A3AE /* ShoufViewController.h */,
+				35F0499B19FD9E7200B4A3AE /* ShoufViewController.m */,
+				35F049A919FDA1D200B4A3AE /* ShoufHistoryViewController.h */,
+				35F049AA19FDA1D200B4A3AE /* ShoufHistoryViewController.m */,
+			);
+			name = Estamte3;
+			sourceTree = "<group>";
+		};
+		D25021081B2BD4EC007AE994 /* Salaty */ = {
+			isa = PBXGroup;
+			children = (
+				0041C44020FF3282007495EC /* BibleVersesSelected.h */,
+				0041C43F20FF3282007495EC /* BibleVersesSelected.m */,
+				0001306820FB7D3200ED19A8 /* BibleChildViewController.h */,
+				0001306720FB7D3200ED19A8 /* BibleChildViewController.m */,
+				001CC74720E0EDFC009F5CE0 /* BibleSearch.h */,
+				001CC74820E0EDFC009F5CE0 /* BibleSearch.m */,
+				004E1C431FF1483D00F72DB2 /* BibleChapters.h */,
+				004E1C441FF1483D00F72DB2 /* BibleChapters.m */,
+				004E1C401FF115C800F72DB2 /* BibleNewList.h */,
+				004E1C411FF115C800F72DB2 /* BibleNewList.m */,
+				00A90BC81FEFE76C00C307B7 /* BibleViewController.h */,
+				00A90BC91FEFE76C00C307B7 /* BibleViewController.m */,
+				009C65C21FEBFA4C007F96EC /* AgpPrayerChildViewControlle.h */,
+				009C65C31FEBFA4C007F96EC /* AgpPrayerChildViewController.m */,
+				009C65BB1FEBD7F9007F96EC /* AgpeyaPrayerView.h */,
+				009C65BC1FEBD7F9007F96EC /* AgpeyaPrayerView.m */,
+				009C65B61FEBC556007F96EC /* agpyalistSalwat.h */,
+				009C65B71FEBC556007F96EC /* agpyalistSalwat.m */,
+				009C65B11FEBB626007F96EC /* agpyalist.h */,
+				009C65B21FEBB626007F96EC /* agpyalist.m */,
+				D25021091B2BD52E007AE994 /* SalatyViewController.h */,
+				D250210A1B2BD52E007AE994 /* SalatyViewController.m */,
+				D2CACB4F1B2BDE2200AEC39A /* AgpeyaViewController.h */,
+				D2CACB501B2BDE2200AEC39A /* AgpeyaViewController.m */,
+				D27ADF751B31B611002A1527 /* AgpChildViewController.h */,
+				D27ADF761B31B611002A1527 /* AgpChildViewController.m */,
+				D2CACB5A1B2BE50100AEC39A /* NotesHistoryViewController.h */,
+				D2CACB5B1B2BE50100AEC39A /* NotesHistoryViewController.m */,
+				D2D3FBF31B478EC800A91200 /* WriteNoteViewController.h */,
+				D2D3FBF41B478EC800A91200 /* WriteNoteViewController.m */,
+				D22726F91B48920D0050C5DC /* ReadNoteViewController.h */,
+				D22726FA1B48920D0050C5DC /* ReadNoteViewController.m */,
+			);
+			name = Salaty;
+			sourceTree = "<group>";
+		};
+		D250210C1B2BD61F007AE994 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				009C655121259618006AF915 /* LoginView_i5.xib */,
+				3530271619692DE500E2D11B /* RegistrationView_i5.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D250210D1B2BD643007AE994 /* YoumBeYoum */ = {
+			isa = PBXGroup;
+			children = (
+				35D74B411968FB5D009F263C /* Eshba3View_i5.xib */,
+				35D74B431968FEE0009F263C /* Be2engylakView_i5.xib */,
+				3579FACF19AEEF96004413BE /* B2kChildView.xib */,
+				35D74B4719690532009F263C /* B2kHistoryView_i5.xib */,
+				35D74B4919690670009F263C /* BekenystakView_i5.xib */,
+				35D74B4B19690A1A009F263C /* Belma3refaView_i5.xib */,
+				35AC25A719C40B4600B35696 /* BelmaHistoryView_i5.xib */,
+				35D74B4D19690BF7009F263C /* EttamenView_i5.xib */,
+				35D74B4F19690F95009F263C /* EttamenMsgView_i5.xib */,
+				354451371A1D757F00F0DBE3 /* EktanyView_i5.xib */,
+				354451471A1D7E4800F0DBE3 /* EktanyHistoryView_i5.xib */,
+				3564D7FD1A1EC60A00E24EAD /* Esma3View_i5.xib */,
+				3564D7FF1A1EC7FF00E24EAD /* Esma3HistoryView_i5.xib */,
+				354880D81A1F560E00C019B9 /* ShoufView_i5.xib */,
+				354880DA1A1F580C00C019B9 /* ShoufHistoryView_i5.xib */,
+				35D74B51196910F8009F263C /* Es2alView_I5.xib */,
+				35ACD13119C4227A00058CBB /* Es2alHistoryView_i5.xib */,
+				353027101969234600E2D11B /* E3rafView_i5.xib */,
+				353027121969277C00E2D11B /* E3rafHistoryView_i5.xib */,
+			);
+			name = YoumBeYoum;
+			sourceTree = "<group>";
+		};
+		D250210E1B2BD699007AE994 /* Salaty */ = {
+			isa = PBXGroup;
+			children = (
+				0041C43D20FF30E9007495EC /* BibleVersesSelectedView.xib */,
+				0001306A20FB83C200ED19A8 /* BiblePrayerChildView.xib */,
+				001CC74520E0ED68009F5CE0 /* BibleSearchView.xib */,
+				004E1C461FF148F000F72DB2 /* BibleChaptersView.xib */,
+				004E1C3E1FF1152E00F72DB2 /* BibleNewListView.xib */,
+				00A90BC61FEFE64000C307B7 /* BibleView.xib */,
+				009C65C51FEBFA5D007F96EC /* AgpPrayerChildView.xib */,
+				009C65C01FEBECE2007F96EC /* AgpeyaPrayerView_i5.xib */,
+				009C65B91FEBC56E007F96EC /* agpyalistSalwatView_i5.xib */,
+				009C65B41FEBB6B5007F96EC /* agpyalistView_i5.xib */,
+				D25021001B2BD1AA007AE994 /* SalatyView_i5.xib */,
+				D2CACB471B2BDDB800AEC39A /* AgpeyaView_i5.xib */,
+				D2F03F791B31C2DF00A8ECD1 /* AgpChildView.xib */,
+				D2CACB561B2BE45200AEC39A /* NotesHistoryView_i5.xib */,
+				D237646F1B4792CB00CC4EEF /* WriteNoteView_i5.xib */,
+				D26624E21B48950A00B8137F /* ReadNoteView_i5.xib */,
+			);
+			name = Salaty;
+			sourceTree = "<group>";
+		};
+		D250210F1B2BD776007AE994 /* Mailbox */ = {
+			isa = PBXGroup;
+			children = (
+				353027061969157700E2D11B /* MailBoxView_i5.xib */,
+				3530270819691A1500E2D11B /* MsgView_i5.xib */,
+				3530270A19691B3A00E2D11B /* EktebLanaView_i5.xib */,
+			);
+			name = Mailbox;
+			sourceTree = "<group>";
+		};
+		D25021101B2BD79C007AE994 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				3530270C19691E1600E2D11B /* MoreView_i5.xib */,
+				3530270E1969209100E2D11B /* AboutView_i5.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		D25F70DB1B2A287700B1342B /* YoumBeYoum */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4DB01927C5A60035C1C3 /* Eshba3 */,
+				35D915291927B2E2007F0AD8 /* EttamenViewController.h */,
+				35D9152A1927B2E2007F0AD8 /* EttamenViewController.m */,
+				35D71C91194A27C400552F2F /* EttamenMsgViewController.h */,
+				35D71C92194A27C400552F2F /* EttamenMsgViewController.m */,
+				35F0497219FD8ECE00B4A3AE /* EktanyViewController.h */,
+				35F0497319FD8ECE00B4A3AE /* EktanyViewController.m */,
+				35F0498E19FD971200B4A3AE /* EktanyHistoryViewController.h */,
+				35F0498F19FD971200B4A3AE /* EktanyHistoryViewController.m */,
+				35F0499F19FDA05200B4A3AE /* Estamte3 */,
+				35D9152E1927B2FE007F0AD8 /* Es2alViewController.h */,
+				35D9152F1927B2FE007F0AD8 /* Es2alViewController.m */,
+				35682CA019C412C6002DA957 /* Es2alHistoryViewController.h */,
+				35682CA119C412C6002DA957 /* Es2alHistoryViewController.m */,
+				35D915331927B31A007F0AD8 /* E3rafViewController.h */,
+				35D915341927B31A007F0AD8 /* E3rafViewController.m */,
+				351D2BD21959F2B7005133D4 /* E3rafHistoryViewController.h */,
+				351D2BD31959F2B7005133D4 /* E3rafHistoryViewController.m */,
+			);
+			name = YoumBeYoum;
+			sourceTree = "<group>";
+		};
+		D287B33A1B2B036900F056B5 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				35DA4DCC1927D28D0035C1C3 /* MoreViewController.h */,
+				35DA4DCD1927D28D0035C1C3 /* MoreViewController.m */,
+				35D269F7195A04F000D55EEC /* AboutViewController.h */,
+				35D269F8195A04F000D55EEC /* AboutViewController.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		D287B33B1B2B038700F056B5 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				35C996AB195671490029C281 /* LoginWebService.h */,
+				35C996AC195671490029C281 /* LoginWebService.m */,
+				35A109F819DFAA1300078892 /* ForgotPassWebService.h */,
+				35A109F919DFAA1300078892 /* ForgotPassWebService.m */,
+				35CC0A8B19580EA2005D7635 /* RegistrationWebService.h */,
+				35CC0A8C19580EA2005D7635 /* RegistrationWebService.m */,
+				350E2A821AA381D3009FEACA /* PushTokenWebService.h */,
+				350E2A801AA38194009FEACA /* PushTokenWebService.m */,
+				35EB12C3193EA31C00A8B85B /* EngylakWebService.h */,
+				35EB12C4193EA31C00A8B85B /* EngylakWebService.m */,
+				35EB12C6193EBE6300A8B85B /* KenystakWebService.h */,
+				35EB12C7193EBE6300A8B85B /* KenystakWebService.m */,
+				35CFCAB31938AD9700A58A28 /* Ma3refaWebService.h */,
+				35CFCAB41938AD9700A58A28 /* Ma3refaWebService.m */,
+				35D66991194A862300C73599 /* EttamenWebService.h */,
+				35D66992194A862300C73599 /* EttamenWebService.m */,
+				35D24E1E1A00E795000419DA /* EktanyWebService.h */,
+				35D24E1F1A00E795000419DA /* EktanyWebService.m */,
+				35CF9F9219FF215F00C50CB5 /* Esma3WebService.h */,
+				35CF9F9319FF215F00C50CB5 /* Esma3WebService.m */,
+				35D24E1B1A00CE03000419DA /* ShoufWebService.h */,
+				35D24E1C1A00CE03000419DA /* ShoufWebService.m */,
+				35DC09F6193FB36000C2590E /* Es2alWebService.h */,
+				35DC09F7193FB36000C2590E /* Es2alWebService.m */,
+				350E3E1819521081002FF6F3 /* Es2alQuestionWebService.h */,
+				350E3E1919521081002FF6F3 /* Es2alQuestionWebService.m */,
+				35EB12CB193EFB8E00A8B85B /* E3rafWebService.h */,
+				35EB12CC193EFB8E00A8B85B /* E3rafWebService.m */,
+				D249F21D1B31989C006119FA /* AgpeyaWebService.h */,
+				D249F21E1B31989C006119FA /* AgpeyaWebService.m */,
+				D2722DDE1B35180C00FC291C /* SoundCloudWebService.h */,
+				D2722DDF1B35180C00FC291C /* SoundCloudWebService.m */,
+				D25393CE1B4E5A1400CA8061 /* NotesWebService.h */,
+				D25393CF1B4E5A1400CA8061 /* NotesWebService.m */,
+				D25393D11B4E755E00CA8061 /* PostNoteWebService.h */,
+				D25393D21B4E755E00CA8061 /* PostNoteWebService.m */,
+				D25BA0EE1B5FC90C0038DC1B /* DeleteNoteWebService.h */,
+				D25BA0EF1B5FC90C0038DC1B /* DeleteNoteWebService.m */,
+				35D79EE619455F9B005DC2ED /* MailBoxWebService.h */,
+				35D79EE719455F9B005DC2ED /* MailBoxWebService.m */,
+				359445E4196535CD002C788F /* EktebLanaWebService.h */,
+				359445E5196535CE002C788F /* EktebLanaWebService.m */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E7346A1927A2F40063C1F7 /* أسقفية الشباب */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E734971927A2F40063C1F7 /* Build configuration list for PBXNativeTarget "أسقفية الشباب" */;
+			buildPhases = (
+				35E734671927A2F40063C1F7 /* Sources */,
+				35E734681927A2F40063C1F7 /* Frameworks */,
+				35E734691927A2F40063C1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "أسقفية الشباب";
+			productName = Oskofeya;
+			productReference = 35E7346B1927A2F40063C1F7 /* أسقفية الشباب.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E734631927A2F40063C1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Apptronix;
+				TargetAttributes = {
+					35E7346A1927A2F40063C1F7 = {
+						DevelopmentTeam = CY2AEF747B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 35E734661927A2F40063C1F7 /* Build configuration list for PBXProject "أسقفية الشباب" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35E734621927A2F40063C1F7;
+			productRefGroup = 35E7346C1927A2F40063C1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E7346A1927A2F40063C1F7 /* أسقفية الشباب */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E734691927A2F40063C1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3564D7FE1A1EC60A00E24EAD /* Esma3View_i5.xib in Resources */,
+				009C65C11FEBECE2007F96EC /* AgpeyaPrayerView_i5.xib in Resources */,
+				009A39341FE6872E002DD835 /* logo.png in Resources */,
+				35D74B441968FEE0009F263C /* Be2engylakView_i5.xib in Resources */,
+				D242FB6D1B7274070043EA17 /* OSK_IconEsma3_Play@2x.png in Resources */,
+				35ED2330195BC15F00D1A971 /* OSK_ButtonCopy@2x.png in Resources */,
+				35D6BD1519E78017007E1B78 /* OSK_ButtonInc@2x.png in Resources */,
+				35D5B5871A16ECC4006EF678 /* OSK_BtnBackWhite@2x.png in Resources */,
+				0084A39A1FDD446900262A42 /* write_notes.png in Resources */,
+				0001306620F5F6D600ED19A8 /* bg.jpg in Resources */,
+				0088AF6C1FEA764C007884F7 /* world.png in Resources */,
+				0084A3A01FDD576400262A42 /* belmaarefa.png in Resources */,
+				D2CACB541B2BE33000AEC39A /* OSK_NotesHistory_i5@2x.png in Resources */,
+				0098ED591FDFC9630063474E /* angry.png in Resources */,
+				3530271719692DE500E2D11B /* RegistrationView_i5.xib in Resources */,
+				004E1C3F1FF1152E00F72DB2 /* BibleNewListView.xib in Resources */,
+				0098ED621FDFDBE80063474E /* etamen.png in Resources */,
+				009C65BA1FEBC56E007F96EC /* agpyalistSalwatView_i5.xib in Resources */,
+				D2CACB491B2BDDB800AEC39A /* AgpeyaView_i5.xib in Resources */,
+				3564D8001A1EC7FF00E24EAD /* Esma3HistoryView_i5.xib in Resources */,
+				001CC74620E0ED69009F5CE0 /* BibleSearchView.xib in Resources */,
+				D25021021B2BD1AA007AE994 /* SalatyView_i5.xib in Resources */,
+				008AFE8F20E2605E0082A374 /* bengelk.jpg in Resources */,
+				D25021061B2BD1D8007AE994 /* OSK_Salaty_i5@2x.png in Resources */,
+				35D48C8319564A8E000D86A5 /* SplashView.xib in Resources */,
+				0088AF6E1FEA9645007884F7 /* oskofia.db in Resources */,
+				00B834DB1FDE756700C6AFA9 /* colse.png in Resources */,
+				35ED2331195BC15F00D1A971 /* OSK_ButtonFB@2x.png in Resources */,
+				35AC25A819C40B4600B35696 /* BelmaHistoryView_i5.xib in Resources */,
+				35D6FC9319639AEA00FA706B /* OSK_Ettamen_i5@2x.png in Resources */,
+				3530270D19691E1600E2D11B /* MoreView_i5.xib in Resources */,
+				3530270F1969209100E2D11B /* AboutView_i5.xib in Resources */,
+				0001306B20FB83C200ED19A8 /* BiblePrayerChildView.xib in Resources */,
+				354880DB1A1F580C00C019B9 /* ShoufHistoryView_i5.xib in Resources */,
+				35D74B4C19690A1A009F263C /* Belma3refaView_i5.xib in Resources */,
+				0098ED641FDFEC2B0063474E /* atfarag.png in Resources */,
+				0098ED5A1FDFC9630063474E /* love.png in Resources */,
+				353027071969157700E2D11B /* MailBoxView_i5.xib in Resources */,
+				0084A39F1FDD576400262A42 /* bekenystak.png in Resources */,
+				353027131969277C00E2D11B /* E3rafHistoryView_i5.xib in Resources */,
+				D25F70E51B2A2B2600B1342B /* NewMainView_i5.xib in Resources */,
+				353027111969234600E2D11B /* E3rafView_i5.xib in Resources */,
+				00A90BCC1FEFE9BF00C307B7 /* bible.png in Resources */,
+				0088AF611FEA60CE007884F7 /* left-arrow.png in Resources */,
+				35D74B401968F92F009F263C /* Default@2x.png in Resources */,
+				35D69A3219651ED000E68B99 /* OSK_IconVideo@2x.png in Resources */,
+				0088AF6B1FEA764C007884F7 /* twitter.png in Resources */,
+				00B834DF1FDE9F7100C6AFA9 /* esm3.png in Resources */,
+				0041C43E20FF30EA007495EC /* BibleVersesSelectedView.xib in Resources */,
+				00A90BC71FEFE64000C307B7 /* BibleView.xib in Resources */,
+				0098ED5B1FDFC9630063474E /* refuse.png in Resources */,
+				35AC6267196942F500B1BC20 /* OSK_IconImage@2x.png in Resources */,
+				35D74B3F1968F92F009F263C /* Default.png in Resources */,
+				0098ED5C1FDFC9630063474E /* thank.png in Resources */,
+				0084A3A21FDD72DD00262A42 /* ektene.png in Resources */,
+				008AFE9120E260690082A374 /* IMG_Tamol.jpg in Resources */,
+				D23764711B4792CB00CC4EEF /* WriteNoteView_i5.xib in Resources */,
+				35D74B391968F3DD009F263C /* OSK_BtnMailboxNew_i5@2x.png in Resources */,
+				009C65B51FEBB6B5007F96EC /* agpyalistView_i5.xib in Resources */,
+				0098ED601FDFD4B40063474E /* weak.png in Resources */,
+				0088AF641FEA673E007884F7 /* share_twitter.png in Resources */,
+				D2CACB581B2BE45200AEC39A /* NotesHistoryView_i5.xib in Resources */,
+				0084A3981FDD3CC700262A42 /* salat_baker.png in Resources */,
+				35D6FC9519639AEA00FA706B /* OSK_Login_i5@2x.png in Resources */,
+				009C654F21259618006AF915 /* LoginView_i5.xib in Resources */,
+				0088AF661FEA699B007884F7 /* contact_us.png in Resources */,
+				D26624E41B48950A00B8137F /* ReadNoteView_i5.xib in Resources */,
+				35D6FC9219639AEA00FA706B /* OSK_Eshba3_i5@2x.png in Resources */,
+				D244E78E1B3094DA0056FFE2 /* OSK_LblBaskha@2x.png in Resources */,
+				354880DD1A1F599300C019B9 /* YouTubeView_i5.xib in Resources */,
+				3579FAD019AEEF96004413BE /* B2kChildView.xib in Resources */,
+				008140751FF0FD8E00183221 /* open_msg.png in Resources */,
+				009C65C61FEBFA5D007F96EC /* AgpPrayerChildView.xib in Resources */,
+				0084A3941FDD212300262A42 /* fb_login.png in Resources */,
+				0098ED521FDFC1920063474E /* annoy.png in Resources */,
+				3530270B19691B3A00E2D11B /* EktebLanaView_i5.xib in Resources */,
+				00D5690A204573C100863237 /* Images.xcassets in Resources */,
+				0084A3961FDD3CB600262A42 /* t2molaty.png in Resources */,
+				008140741FF0FD8E00183221 /* close_msg.png in Resources */,
+				35D74B52196910F8009F263C /* Es2alView_I5.xib in Resources */,
+				3530270919691A1500E2D11B /* MsgView_i5.xib in Resources */,
+				D27BB3B51B37B2A700ECF749 /* OSK_ButtonPlay@2x.png in Resources */,
+				35D74B3A1968F3DD009F263C /* OSK_BtnMailboxNone_i5@2x.png in Resources */,
+				35D39CEF1963A1E0002DA33C /* OSK_EttamenFO@2x.png in Resources */,
+				35ED2332195BC15F00D1A971 /* OSK_ButtonWhtsp@2x.png in Resources */,
+				35D269FF195A108C00D55EEC /* SplashMovie.mp4 in Resources */,
+				009E3EEB1FE1261A00E43FDE /* andy_soaal.png in Resources */,
+				0098ED5D1FDFC9630063474E /* unfairness.png in Resources */,
+				35D74B4E19690BF7009F263C /* EttamenView_i5.xib in Resources */,
+				00A90BCE1FEFF81E00C307B7 /* history.png in Resources */,
+				0088AF681FEA71D5007884F7 /* youtube.png in Resources */,
+				35D74B5019690F95009F263C /* EttamenMsgView_i5.xib in Resources */,
+				35D74B4819690532009F263C /* B2kHistoryView_i5.xib in Resources */,
+				009E3EE91FE11BD500E43FDE /* es2al.png in Resources */,
+				354880D91A1F560E00C019B9 /* ShoufView_i5.xib in Resources */,
+				35D74B4A19690670009F263C /* BekenystakView_i5.xib in Resources */,
+				354451381A1D757F00F0DBE3 /* EktanyView_i5.xib in Resources */,
+				00B834DD1FDE7F2E00C6AFA9 /* reload.png in Resources */,
+				009A39361FE6AC4D002DD835 /* SidebarMenuViewController.xib in Resources */,
+				35D74B421968FB5D009F263C /* Eshba3View_i5.xib in Resources */,
+				0088AF621FEA60CE007884F7 /* menu-button.png in Resources */,
+				004E1C471FF148F000F72DB2 /* BibleChaptersView.xib in Resources */,
+				35D6BD1419E78017007E1B78 /* OSK_ButtonDec@2x.png in Resources */,
+				35ACD13219C4227A00058CBB /* Es2alHistoryView_i5.xib in Resources */,
+				35D74B3E1968F92F009F263C /* Default-568h@2x.png in Resources */,
+				D242FB6C1B7274070043EA17 /* OSK_IconEsma3_Pause@2x.png in Resources */,
+				0098ED5E1FDFC9630063474E /* unsafe.png in Resources */,
+				0084A39E1FDD576400262A42 /* beengylak.png in Resources */,
+				008140711FF0ED0E00183221 /* OSK_FBx.png in Resources */,
+				D2F03F7A1B31C2DF00A8ECD1 /* AgpChildView.xib in Resources */,
+				D27BB3B41B37B2A700ECF749 /* OSK_ButtonPause@2x.png in Resources */,
+				354451481A1D7E4800F0DBE3 /* EktanyHistoryView_i5.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E734671927A2F40063C1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A109FA19DFAA1300078892 /* ForgotPassWebService.m in Sources */,
+				D2CACB5C1B2BE50100AEC39A /* NotesHistoryViewController.m in Sources */,
+				35DA4DC91927CF130035C1C3 /* EktebLanaViewController.m in Sources */,
+				004E1C451FF1483D00F72DB2 /* BibleChapters.m in Sources */,
+				35D9152C1927B2E2007F0AD8 /* EttamenViewController.m in Sources */,
+				35CF9F9419FF215F00C50CB5 /* Esma3WebService.m in Sources */,
+				35DA4DCF1927D28D0035C1C3 /* MoreViewController.m in Sources */,
+				350E3E1A19521081002FF6F3 /* Es2alQuestionWebService.m in Sources */,
+				35D4BA1119561BDD00B9F6F5 /* SplashViewController.m in Sources */,
+				D25BA0F01B5FC90C0038DC1B /* DeleteNoteWebService.m in Sources */,
+				35DB33461938A17A0007E9C7 /* Be2engylakViewController.m in Sources */,
+				009C65B81FEBC556007F96EC /* agpyalistSalwat.m in Sources */,
+				004E1C421FF115C800F72DB2 /* BibleNewList.m in Sources */,
+				35C996AD195671490029C281 /* LoginWebService.m in Sources */,
+				009C65BD1FEBD7F9007F96EC /* AgpeyaPrayerView.m in Sources */,
+				35D5B5841A16CDCB006EF678 /* YouTubeViewController.m in Sources */,
+				009C65B31FEBB626007F96EC /* agpyalist.m in Sources */,
+				35CFCAB11938ACB800A58A28 /* Belma3refaViewController.m in Sources */,
+				350E2A811AA38194009FEACA /* PushTokenWebService.m in Sources */,
+				35CFCAB51938AD9700A58A28 /* Ma3refaWebService.m in Sources */,
+				0088AF7A1FEAA4AB007884F7 /* FMDatabase.m in Sources */,
+				35EB12C5193EA31C00A8B85B /* EngylakWebService.m in Sources */,
+				3599B4791938B450001B3636 /* BekenystakViewController.m in Sources */,
+				35DC09F8193FB36000C2590E /* Es2alWebService.m in Sources */,
+				009A39391FE6AC66002DD835 /* SidebarMenuViewController.m in Sources */,
+				35CB00341965F690001D191F /* CFWObject.m in Sources */,
+				351D2BD51959F2B7005133D4 /* E3rafHistoryViewController.m in Sources */,
+				35D24E1D1A00CE03000419DA /* ShoufWebService.m in Sources */,
+				D25393D31B4E755E00CA8061 /* PostNoteWebService.m in Sources */,
+				35D71C94194A27C400552F2F /* EttamenMsgViewController.m in Sources */,
+				35EB12CD193EFB8E00A8B85B /* E3rafWebService.m in Sources */,
+				35F0497519FD8ECE00B4A3AE /* EktanyViewController.m in Sources */,
+				D25393D01B4E5A1400CA8061 /* NotesWebService.m in Sources */,
+				35D915361927B31A007F0AD8 /* E3rafViewController.m in Sources */,
+				35D66993194A862300C73599 /* EttamenWebService.m in Sources */,
+				0088AF7E1FEAA4AB007884F7 /* FMResultSet.m in Sources */,
+				35F049AC19FDA1D200B4A3AE /* ShoufHistoryViewController.m in Sources */,
+				35DA4DD41927D8D30035C1C3 /* LoginViewController.m in Sources */,
+				0001306920FB7D3200ED19A8 /* BibleChildViewController.m in Sources */,
+				0041C44120FF3282007495EC /* BibleVersesSelected.m in Sources */,
+				359445E6196535CE002C788F /* EktebLanaWebService.m in Sources */,
+				35D24E201A00E795000419DA /* EktanyWebService.m in Sources */,
+				0088AF7B1FEAA4AB007884F7 /* FMDatabaseAdditions.m in Sources */,
+				35682CA319C412C6002DA957 /* Es2alHistoryViewController.m in Sources */,
+				35E7347F1927A2F40063C1F7 /* AppDelegate.m in Sources */,
+				D2D3FBF51B478EC800A91200 /* WriteNoteViewController.m in Sources */,
+				001CC74920E0EDFC009F5CE0 /* BibleSearch.m in Sources */,
+				35DA4DC41927CED50035C1C3 /* MsgViewController.m in Sources */,
+				355F301F1927A92800AB7132 /* MainViewController.m in Sources */,
+				35D7E8BC19C3F2080038F75D /* BelmaHistoryViewController.m in Sources */,
+				00A90BCA1FEFE76C00C307B7 /* BibleViewController.m in Sources */,
+				35D811ED1949D1EA00580964 /* AgePickerViewController.m in Sources */,
+				35F049A719FDA1B200B4A3AE /* Esma3HistoryViewController.m in Sources */,
+				35DA4DDA1927D9060035C1C3 /* RegistrationViewController.m in Sources */,
+				35D915271927B2B7007F0AD8 /* Eshba3ViewController.m in Sources */,
+				35DA4DBF1927CEAC0035C1C3 /* MailBoxViewController.m in Sources */,
+				35F0499D19FD9E7200B4A3AE /* ShoufViewController.m in Sources */,
+				D250210B1B2BD52E007AE994 /* SalatyViewController.m in Sources */,
+				D22726FB1B48920D0050C5DC /* ReadNoteViewController.m in Sources */,
+				0088AF7C1FEAA4AB007884F7 /* FMDatabasePool.m in Sources */,
+				35D269FA195A04F000D55EEC /* AboutViewController.m in Sources */,
+				D249F21F1B31989C006119FA /* AgpeyaWebService.m in Sources */,
+				35EB12C8193EBE6300A8B85B /* KenystakWebService.m in Sources */,
+				35DB334B1938A56A0007E9C7 /* B2kHistoryViewController.m in Sources */,
+				35D79EE819455F9B005DC2ED /* MailBoxWebService.m in Sources */,
+				35F0499819FD9DC000B4A3AE /* Esma3ViewController.m in Sources */,
+				0088AF7D1FEAA4AB007884F7 /* FMDatabaseQueue.m in Sources */,
+				D27ADF771B31B611002A1527 /* AgpChildViewController.m in Sources */,
+				354BAA2F1948DA050071423E /* SubjectPickerViewController.m in Sources */,
+				009C65C41FEBFA4C007F96EC /* AgpPrayerChildViewController.m in Sources */,
+				35F0499119FD971200B4A3AE /* EktanyHistoryViewController.m in Sources */,
+				35E8891219AEB60C00D25D65 /* B2kChildViewController.m in Sources */,
+				35CC0A8D19580EA2005D7635 /* RegistrationWebService.m in Sources */,
+				D2CACB511B2BDE2200AEC39A /* AgpeyaViewController.m in Sources */,
+				35CB00371965FD22001D191F /* DateIndexObject.m in Sources */,
+				35D915311927B2FE007F0AD8 /* Es2alViewController.m in Sources */,
+				D2722DE01B35180C00FC291C /* SoundCloudWebService.m in Sources */,
+				35E7347B1927A2F40063C1F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		009C655121259618006AF915 /* LoginView_i5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009C655021259618006AF915 /* en */,
+			);
+			name = LoginView_i5.xib;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E734951927A2F40063C1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35E734961927A2F40063C1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E734981927A2F40063C1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "أسقفية الشباب/أسقفية الشباب.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CY2AEF747B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oskofeya/أسقفية الشباب-Prefix.pch";
+				INFOPLIST_FILE = "Oskofeya/أسقفية الشباب-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "أسقفية الشباب";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35E734991927A2F40063C1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "أسقفية الشباب/أسقفية الشباب.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CY2AEF747B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oskofeya/أسقفية الشباب-Prefix.pch";
+				INFOPLIST_FILE = "Oskofeya/أسقفية الشباب-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "أسقفية الشباب";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E734661927A2F40063C1F7 /* Build configuration list for PBXProject "أسقفية الشباب" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E734951927A2F40063C1F7 /* Debug */,
+				35E734961927A2F40063C1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E734971927A2F40063C1F7 /* Build configuration list for PBXNativeTarget "أسقفية الشباب" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E734981927A2F40063C1F7 /* Debug */,
+				35E734991927A2F40063C1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E734631927A2F40063C1F7 /* Project object */;
+}
